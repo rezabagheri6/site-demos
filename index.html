@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>اصول طراحی، صرافی</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic:wght@600;800&family=Vazirmatn:wght@400;500;700&display=swap">
+<style>
+/* Layout: RTL research page in the design-thread family; one card per anonymous run (desktop and phone first screens, link to the live page), then the question. */
+:root { --bg: #f4f6fa; --surface: #ffffff; --fg: #141b2b; --muted: #566077; --line: #d8deea; --accent: #1d4f91; --accent-soft: #e3ebf7; --saffron-soft: #fbf1dc;
+  --font-display: "Noto Kufi Arabic", "Vazirmatn", Tahoma, sans-serif; --font-body: "Vazirmatn", Tahoma, "Segoe UI", sans-serif; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --bg: #10141d; --surface: #171d29; --fg: #e3e8f2; --muted: #9aa5ba; --line: #2a3345; --accent: #8fb4ec; --accent-soft: #1b2a44; --saffron-soft: #33280f; color-scheme: dark; } }
+:root[data-theme="dark"] { --bg: #10141d; --surface: #171d29; --fg: #e3e8f2; --muted: #9aa5ba; --line: #2a3345; --accent: #8fb4ec; --accent-soft: #1b2a44; --saffron-soft: #33280f; color-scheme: dark; }
+body { background: var(--bg); color: var(--fg); font-family: var(--font-body); font-size: 16px; line-height: 1.85; padding-inline: 16px; margin: 0; }
+main { max-width: 1180px; margin-inline: auto; padding-block: 48px 72px; display: grid; gap: 36px; }
+h1, h2 { font-family: var(--font-display); text-wrap: balance; line-height: 1.5; margin: 0; }
+h1 { font-size: 1.9rem; font-weight: 800; } h2 { font-size: 1.35rem; font-weight: 800; }
+p, ol { margin: 0; } header, section { display: grid; gap: 14px; min-width: 0; }
+.eyebrow { color: var(--muted); font-size: .9rem; } .lede { font-size: 1.08rem; max-width: 50em; } .note { color: var(--muted); font-size: .95rem; max-width: 50em; }
+ol { padding-inline-start: 1.3em; display: grid; gap: 6px; list-style-type: persian; }
+.runs { display: grid; gap: 20px; }
+.run { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; overflow: hidden; display: grid; min-width: 0; }
+.run .shots { display: grid; grid-template-columns: minmax(0, 2.46fr) minmax(0, 1fr); gap: 1px; background: var(--line); direction: ltr; align-items: start; }
+.run img { display: block; width: 100%; height: auto; max-width: 100%; background: var(--bg); }
+.run .body { padding: 14px 18px 18px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 10px 16px; }
+.run .tag { font-family: var(--font-display); font-weight: 800; font-size: 1.4rem; color: var(--accent); }
+.open { display: inline-flex; align-items: center; min-height: 40px; padding: 0 16px; border-radius: 8px; background: var(--accent-soft); color: var(--accent); font-weight: 700; text-decoration: none; }
+.open:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
+.pending { background: var(--surface); border: 1px dashed var(--line); border-radius: 12px; padding: 22px; color: var(--muted); }
+.ask { background: var(--saffron-soft); border-radius: 8px; padding: 20px 22px; display: grid; gap: 10px; }
+</style>
+
+</head>
+<body>
+<main dir="rtl" lang="fa">
+  <header>
+    <div class="eyebrow">موتور دیزاین، صرافی ارز دیجیتال، ۲۲ مهر ۱۴۰۵</div>
+    <h1>پرامپتِ اصول طراحی روی یک صرافی</h1>
+    <p class="lede">صرافی ساختگی است: بیت‌کاروان در تهران. صفحه با پرامپت نسخه‌ی صفر ساخته شده که از اصول کلی طراحی درآمده است. GPT مدل gpt-6.1-sol اول شش عکس عمومی سفارش داد که gpt-image-2 ساخت، بعد صفحه را نوشت. مرجع نوبیتکس و والکس بود و فهرست بخش‌ها از الگوی صرافی‌های ایرانی آمد. این طرح «الف» است. ب، پ و ت با نسخه‌ی یک پرامپت ساخته شده‌اند: اول یک فاز خلاقیت سه جهت هویت بصری داد، هر کدام با پالت، فونت تیتر و یک عنصر امضای جدا، و بعد برای هر جهت یک صفحه‌ی کامل ساخته شد. ب «منزل‌به‌منزل» است، از معنای کاروان: مسیر خرید با ایستگاه‌های شماره‌دار. پ «سایه‌ی ولیعصر» است، از نشانی دفتر: ریتم عمودی تنه‌ی چنارها. ت «دفتر تومان» است، از خود محصول: سطرهای حساب با خط‌کشی دفتری. ث، ج و چ با نسخه‌ی دو ساخته شده‌اند: زمینه‌ی سفید، رنگ برند پررنگ در سطح‌های بزرگ، لوگوی رنگی رمزارزها و ترکیب صفحه‌ی اولِ متفاوت در هر جهت. ث «مسیر کاروان» است با نارنجی و آبی، ج «ریتم ولیعصر» با سبز و سرخابی، و چ «تومانِ روشن» با بنفش و لیمویی. صفحه‌ی زنده را باز کنید و تا پایین ببینید.</p>
+    <p class="note">همه‌ی قیمت‌ها، عددها و نظرها نمونه‌اند. عکس‌ها ساختگی‌اند و فقط فضای شهر را نشان می‌دهند. ب و ت عکس نخواستند و پ فقط یک عکس از چنارهای ولیعصر خواست.</p>
+  </header>
+
+  <div class="runs">
+    <article class="run">
+      <div class="shots"><img src="crypto/shots/cd1-d.jpg" alt="طرح ث، صفحه‌ی اول در دسکتاپ" width="960" height="600"><img src="crypto/shots/cd1-m.jpg" alt="طرح ث در موبایل" width="390" height="844"></div>
+      <div class="body"><span class="tag">ث، مسیر کاروان</span><a class="open" href="crypto/c/d1/index.html">باز کردن صفحه‌ی زنده‌ی ث</a></div>
+    </article>
+    <article class="run">
+      <div class="shots"><img src="crypto/shots/cd2-d.jpg" alt="طرح ج، صفحه‌ی اول در دسکتاپ" width="960" height="600"><img src="crypto/shots/cd2-m.jpg" alt="طرح ج در موبایل" width="390" height="844"></div>
+      <div class="body"><span class="tag">ج، ریتم ولیعصر</span><a class="open" href="crypto/c/d2/index.html">باز کردن صفحه‌ی زنده‌ی ج</a></div>
+    </article>
+    <article class="run">
+      <div class="shots"><img src="crypto/shots/cd3-d.jpg" alt="طرح چ، صفحه‌ی اول در دسکتاپ" width="960" height="600"><img src="crypto/shots/cd3-m.jpg" alt="طرح چ در موبایل" width="390" height="844"></div>
+      <div class="body"><span class="tag">چ، تومانِ روشن</span><a class="open" href="crypto/c/d3/index.html">باز کردن صفحه‌ی زنده‌ی چ</a></div>
+    </article>
+    <article class="run">
+      <div class="shots"><img src="crypto/shots/a-d.jpg" alt="صفحه‌ی اول صرافی در دسکتاپ" width="960" height="600"><img src="crypto/shots/a-m.jpg" alt="صفحه‌ی اول صرافی در موبایل" width="390" height="844"></div>
+      <div class="body"><span class="tag">الف</span><a class="open" href="crypto/a/index.html">باز کردن صفحه‌ی زنده</a></div>
+    </article>
+    <article class="run">
+      <div class="shots"><img src="crypto/shots/bd1-d.jpg" alt="طرح ب، صفحه‌ی اول در دسکتاپ" width="960" height="600"><img src="crypto/shots/bd1-m.jpg" alt="طرح ب در موبایل" width="390" height="844"></div>
+      <div class="body"><span class="tag">ب، منزل‌به‌منزل</span><a class="open" href="crypto/b/d1/index.html">باز کردن صفحه‌ی زنده‌ی ب</a></div>
+    </article>
+    <article class="run">
+      <div class="shots"><img src="crypto/shots/bd2-d.jpg" alt="طرح پ، صفحه‌ی اول در دسکتاپ" width="960" height="600"><img src="crypto/shots/bd2-m.jpg" alt="طرح پ در موبایل" width="390" height="844"></div>
+      <div class="body"><span class="tag">پ، سایه‌ی ولیعصر</span><a class="open" href="crypto/b/d2/index.html">باز کردن صفحه‌ی زنده‌ی پ</a></div>
+    </article>
+    <article class="run">
+      <div class="shots"><img src="crypto/shots/bd3-d.jpg" alt="طرح ت، صفحه‌ی اول در دسکتاپ" width="960" height="600"><img src="crypto/shots/bd3-m.jpg" alt="طرح ت در موبایل" width="390" height="844"></div>
+      <div class="body"><span class="tag">ت، دفتر تومان</span><a class="open" href="crypto/b/d3/index.html">باز کردن صفحه‌ی زنده‌ی ت</a></div>
+    </article>
+  </div>
+</main>
+</body>
+</html>

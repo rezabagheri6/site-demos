@@ -1,0 +1,769 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head><meta name="robots" content="noindex, nofollow">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#FAFAF7">
+<meta name="description" content="بیت‌کاروان؛ خرید و فروش بیش از ۱۲۰ رمزارز با تومان. پیش‌نمایش شفاف هزینه، کارمزد پلکانی و پشتیبانی شبانه‌روزی.">
+<title>بیت‌کاروان | خرید و فروش رمزارز، روی حساب روشن</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@400;500;600;700;800&family=Vazirmatn:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--paper:#FAFAF7;--ink:#25262B;--blue:#3346A8;--note:#F0D66A;--line:rgba(37,38,43,.16);--muted:rgba(37,38,43,.72);--wash:rgba(51,70,168,.045);--radius:14px}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:110px}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:Vazirmatn,sans-serif;font-size:15px;line-height:1.9}
+button,input,select{font:inherit}
+button,a,input,select,summary{-webkit-tap-highlight-color:transparent}
+button,a{touch-action:manipulation}
+button{cursor:pointer}
+a{color:inherit;text-decoration:none}
+a:hover{color:var(--blue)}
+button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible,summary:focus-visible{outline:3px solid var(--blue);outline-offset:4px}
+button:disabled{cursor:not-allowed;opacity:.5}
+svg{display:inline-block;vertical-align:middle}
+.icon{width:21px;height:21px;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round;flex-shrink:0}
+h1,h2,h3,h4{font-family:"Noto Sans Arabic",sans-serif;line-height:1.65;margin:0;font-weight:700;letter-spacing:-.6px}
+h2{font-size:29px}h3{font-size:19px}p{margin:0}
+small{font-size:12px}
+.container{width:min(1220px,calc(100% - 64px));margin-inline:auto}
+.num{font-family:Vazirmatn,sans-serif;font-variant-numeric:tabular-nums}
+.ltr{direction:ltr;display:inline-block;unicode-bidi:isolate}
+.muted{color:var(--muted)}
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;min-height:46px;padding:9px 21px;border:1px solid var(--blue);border-radius:8px;background:var(--blue);color:var(--paper);font-weight:600;transition:background .15s,box-shadow .15s}
+.btn:hover{color:var(--paper);background:var(--ink);border-color:var(--ink)}
+.btn-outline{background:transparent;color:var(--blue)}
+.btn-outline:hover{background:var(--wash);color:var(--blue);border-color:var(--blue)}
+.btn-small{min-height:38px;padding:5px 15px;font-size:13px}
+.text-link{display:inline-flex;align-items:center;gap:9px;color:var(--blue);font-weight:600}
+.text-link:hover{text-decoration:underline;text-underline-offset:5px}
+.section{padding-block:76px;border-top:1px solid var(--line)}
+.section-heading{display:flex;justify-content:space-between;align-items:flex-end;gap:24px;margin-bottom:30px}
+.section-heading p{color:var(--muted);margin-top:8px;max-width:650px}
+.eyebrow{display:flex;align-items:center;gap:9px;font-size:12px;font-weight:600;letter-spacing:0;color:var(--muted);margin-bottom:13px}
+.eyebrow:before{content:"";width:17px;height:3px;background:var(--blue)}
+.tag{display:inline-flex;align-items:center;padding:2px 9px;border:1px solid var(--line);border-radius:5px;font-size:11px;white-space:nowrap}
+.note{background:var(--note);color:var(--ink);border-radius:7px;padding:11px 15px;font-size:12px;line-height:1.9}
+.demo-bar{background:var(--ink);color:var(--paper);text-align:center;font-size:11px;padding:5px 16px}
+.header{position:sticky;top:0;z-index:30;background:rgba(250,250,247,.97);border-bottom:1px solid var(--line);backdrop-filter:blur(12px)}
+.header-inner{display:flex;align-items:center;gap:42px;min-height:81px}
+.brand{display:inline-flex;align-items:center;gap:10px;white-space:nowrap}
+.brand-mark{width:37px;height:41px;color:var(--blue)}
+.brand-name{font-family:"Noto Sans Arabic",sans-serif;font-size:23px;font-weight:800;line-height:1.4;letter-spacing:-1px}
+.brand-caption{font-size:10px;color:var(--muted);display:block;letter-spacing:.5px}
+.nav{display:flex;align-items:center;gap:25px;font-size:13px;flex:1}
+.nav a{padding-block:12px;white-space:nowrap}
+.header-actions{display:flex;align-items:center;gap:18px;font-size:13px}
+.menu-button{display:none;background:none;border:1px solid var(--line);border-radius:7px;padding:8px;color:var(--ink)}
+.hero{padding:57px 0 35px}
+.hero-grid{display:grid;grid-template-columns:.82fr 1.55fr;gap:46px;align-items:center}
+.hero-copy h1{font-size:43px;line-height:1.65;letter-spacing:-1.6px;margin-bottom:16px}
+.hero-copy h1 span{color:var(--blue)}
+.hero-copy>p{font-size:15px;color:var(--muted);max-width:370px;line-height:2.05}
+.hero-features{display:flex;flex-wrap:wrap;gap:8px 17px;margin-top:24px;font-size:12px}
+.hero-features span{display:flex;align-items:center;gap:6px}
+.hero-features .icon{width:16px;height:16px;color:var(--blue)}
+.hero-caption{margin-top:26px;padding-top:16px;border-top:1px solid var(--line);font-size:11px;color:var(--muted);display:flex;justify-content:space-between;gap:8px;max-width:345px}
+.trade-card{border:1px solid rgba(51,70,168,.3);border-radius:var(--radius);box-shadow:0 12px 36px rgba(37,38,43,.045);overflow:hidden}
+.trade-heading{display:flex;align-items:center;justify-content:space-between;padding:15px 22px;border-bottom:1px solid var(--line)}
+.trade-heading h2{font-family:Vazirmatn,sans-serif;font-size:16px;letter-spacing:0}
+.trade-heading .tag{color:var(--muted)}
+.trade-body{display:grid;grid-template-columns:1.14fr 1fr}
+.trade-form{padding:21px 22px}
+.trade-tabs{display:flex;border:1px solid var(--line);border-radius:7px;padding:3px;margin-bottom:19px;gap:4px}
+.trade-tabs button{border:0;background:transparent;color:var(--muted);border-radius:5px;min-height:37px;flex:1;font-size:13px}
+.trade-tabs button[aria-pressed="true"]{background:var(--blue);color:var(--paper);font-weight:600}
+.trade-tabs button:hover:not([aria-pressed="true"]){background:var(--wash)}
+.field-label{display:flex;justify-content:space-between;align-items:center;font-size:12px;margin-bottom:6px}
+.field-label span{font-size:10px;color:var(--muted)}
+.input-shell{display:flex;align-items:center;gap:10px;border:1px solid rgba(37,38,43,.27);border-radius:7px;min-height:52px;padding:0 12px;margin-bottom:15px}
+.input-shell:focus-within{border-color:var(--blue);box-shadow:0 0 0 2px rgba(51,70,168,.1)}
+.input-shell input{min-width:0;width:100%;border:0;outline:0;background:transparent;color:var(--ink);font-size:21px;font-weight:500;direction:ltr;text-align:right;font-variant-numeric:tabular-nums}
+.input-shell input:focus-visible{outline:0}
+.input-shell .unit{font-size:12px;color:var(--muted);white-space:nowrap}
+.coin-picker{position:relative}
+.coin-picker select{appearance:none;width:100%;height:51px;background:transparent;border:1px solid rgba(37,38,43,.27);border-radius:7px;color:var(--ink);padding:0 15px 0 36px;font-size:13px}
+.coin-picker .icon{position:absolute;left:13px;top:16px;pointer-events:none;width:17px;height:17px}
+.form-help{font-size:10px;color:var(--muted);margin:9px 0 14px;line-height:1.9}
+.trade-submit{width:100%;min-height:46px}
+.form-status{font-size:11px;line-height:1.9;margin-top:10px}
+.form-status:empty{display:none}
+.order-preview{padding:24px 19px;background:var(--wash);border-right:1px solid var(--line);display:flex;flex-direction:column}
+.preview-heading{display:flex;align-items:center;justify-content:space-between;gap:8px;margin-bottom:20px}
+.preview-heading h3{font-family:Vazirmatn,sans-serif;font-size:13px;letter-spacing:0}
+.preview-heading .icon{width:18px;height:18px;color:var(--blue)}
+.ledger{width:100%;font-size:12px}
+.ledger-row{display:grid;grid-template-columns:minmax(0,1fr) auto 39px;gap:8px;align-items:baseline;padding:13px 0;border-bottom:1px solid var(--line)}
+.ledger-row .value{font-size:15px;direction:ltr;unicode-bidi:isolate;text-align:left;font-weight:600;font-variant-numeric:tabular-nums}
+.ledger-row .unit{font-size:10px;text-align:left;color:var(--muted)}
+.ledger-total{border-bottom:3px double var(--ink);padding-bottom:15px}
+.ledger-total .value{color:var(--blue)}
+.order-preview .note{font-size:10px;padding:8px 10px;margin-top:19px}
+.preview-foot{font-size:10px;color:var(--muted);margin-top:auto;padding-top:18px;line-height:1.9}
+.trade-support{border-top:1px solid var(--line);padding:11px 20px;display:flex;align-items:center;justify-content:space-between;gap:10px;font-size:10px}
+.support-links{display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+.support-links a:hover{text-decoration:underline}
+.hero-bottom{display:flex;justify-content:space-between;align-items:center;gap:20px;margin-top:25px;padding-top:18px;font-size:12px}
+.hero-bottom-left{display:flex;gap:25px}
+.hero-bottom-left a{display:flex;align-items:center;gap:7px}
+.hero-bottom .icon{width:17px;height:17px}
+.market{padding-top:39px;padding-bottom:50px}
+.market .section-heading{margin-bottom:23px}
+.market-tools{display:flex;justify-content:space-between;align-items:center;gap:20px;margin-bottom:19px}
+.filter-tabs{display:flex;gap:6px;flex-wrap:wrap}
+.filter-tabs button{border:1px solid transparent;border-radius:6px;padding:6px 14px;background:transparent;color:var(--muted);font-size:12px}
+.filter-tabs button[aria-pressed="true"]{background:var(--wash);color:var(--blue);border-color:rgba(51,70,168,.22);font-weight:600}
+.filter-tabs button:hover{border-color:var(--line)}
+.search{display:flex;align-items:center;gap:8px;border:1px solid var(--line);border-radius:7px;padding:7px 11px}
+.search .icon{width:17px;height:17px;color:var(--muted)}
+.search input{border:0;background:transparent;outline:none;width:170px;color:var(--ink);font-size:12px}
+.search:focus-within{border-color:var(--blue)}
+.table-scroll{overflow-x:auto;border:1px solid var(--line);border-radius:10px}
+.market-table{width:100%;border-collapse:collapse;white-space:nowrap;table-layout:fixed}
+.market-table th{font-weight:400;color:var(--muted);font-size:11px;text-align:right;padding:14px 23px;border-bottom:1px solid var(--line);background:var(--wash)}
+.market-table th:nth-child(1){width:27%}
+.market-table th:nth-child(2){width:25%}
+.market-table th:nth-child(3){width:16%}
+.market-table th:nth-child(4){width:18%}
+.market-table th:last-child{width:14%;text-align:left}
+.market-table td{padding:13px 23px;border-bottom:1px solid var(--line);font-size:14px}
+.market-table tr:last-child td{border-bottom:0}
+.market-table tbody tr:hover{background:var(--wash)}
+.coin-name{display:flex;align-items:center;gap:12px}
+.coin-symbol{width:36px;height:36px;border:1px solid var(--line);border-radius:50%;display:inline-flex;align-items:center;justify-content:center;font-size:18px;font-family:Arial,sans-serif;font-weight:600;background:var(--paper);color:var(--ink);flex-shrink:0}
+.coin-name strong{display:block;font-weight:500;font-size:13px}
+.coin-name small{display:block;font-size:10px;line-height:1.4;letter-spacing:.6px;color:var(--muted)}
+.price-cell{font-weight:600;letter-spacing:.1px}
+.change{direction:ltr;display:inline-block;font-size:12px}
+.spark{width:106px;height:30px;fill:none;stroke:var(--blue);stroke-width:1.6}
+.market-table td:last-child{text-align:left}
+.market-buy{display:inline-flex;align-items:center;gap:9px;background:transparent;border:1px solid var(--line);color:var(--blue);padding:5px 12px;border-radius:6px;font-size:11px}
+.market-buy:hover{background:var(--blue);border-color:var(--blue);color:var(--paper)}
+.market-buy .icon{width:14px;height:14px}
+.market-meta{display:flex;align-items:center;justify-content:space-between;gap:16px;font-size:11px;color:var(--muted);margin-top:16px}
+.market-date{display:flex;gap:12px;align-items:center;flex-wrap:wrap}
+.empty-market{display:none;text-align:center;padding:28px;font-size:13px}
+.trust-strip{border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:28px 0;background:var(--wash)}
+.trust-grid{display:grid;grid-template-columns:repeat(4,1fr)}
+.trust-item{padding:3px 32px;border-left:1px solid var(--line)}
+.trust-item:first-child{padding-right:0}
+.trust-item:last-child{border:0}
+.trust-value{font-size:29px;font-weight:600;letter-spacing:-.7px;line-height:1.5}
+.trust-value small{font-size:13px;letter-spacing:0;font-weight:400}
+.trust-label{font-size:11px;color:var(--muted);margin-top:6px}
+.start-layout{display:grid;grid-template-columns:1fr 1fr 1fr;gap:30px}
+.step{position:relative;padding:0 0 20px;border-bottom:1px solid var(--line)}
+.step-top{display:flex;justify-content:space-between;align-items:center;margin-bottom:20px}
+.step-number{font-size:13px;color:var(--blue);border:1px solid rgba(51,70,168,.3);width:34px;height:34px;display:grid;place-items:center;border-radius:7px}
+.step-top>.icon{color:var(--muted)}
+.step h3{font-size:17px;margin-bottom:9px}
+.step p{font-size:13px;color:var(--muted)}
+.step-foot{font-size:11px;padding-top:14px;color:var(--blue)}
+.signup-strip{display:flex;justify-content:space-between;align-items:center;gap:24px;padding:22px 25px;background:var(--wash);border:1px solid var(--line);border-radius:10px;margin-top:27px}
+.signup-copy strong{font-size:14px}
+.signup-copy p{font-size:11px;color:var(--muted);margin-top:4px}
+.signup-form{display:flex;gap:9px;flex-wrap:wrap;max-width:470px}
+.signup-form input{min-height:45px;min-width:210px;padding:8px 13px;background:var(--paper);border:1px solid var(--line);border-radius:7px;direction:ltr;text-align:right}
+.signup-status{width:100%;font-size:11px;color:var(--blue)}
+.signup-status:empty{display:none}
+.fees-layout{display:grid;grid-template-columns:1.12fr 1fr;gap:48px}
+.subheading{display:flex;align-items:center;justify-content:space-between;gap:15px;margin-bottom:17px}
+.subheading h3{font-size:17px}
+.subheading small{color:var(--muted)}
+.account-table{width:100%;border-collapse:collapse;font-size:12px}
+.account-table th{font-size:11px;font-weight:400;color:var(--muted);border-bottom:1px solid var(--ink);padding:10px 0;text-align:right}
+.account-table td{padding:14px 0;border-bottom:1px solid var(--line)}
+.account-table th:last-child,.account-table td:last-child{text-align:left}
+.account-table tbody tr:last-child td{border-bottom:3px double var(--ink)}
+.account-table .amount{font-weight:600;font-size:15px;font-variant-numeric:tabular-nums}
+.account-table .unit{font-weight:400;font-size:10px;color:var(--muted);margin-right:7px}
+.fee-note{margin-top:18px}
+.level-description{font-size:10px;color:var(--muted);display:block;padding-top:4px}
+.settlement{display:grid;grid-template-columns:1fr 1fr 1fr;gap:25px;margin-top:34px;padding-top:25px;border-top:1px solid var(--line)}
+.settlement-item{font-size:12px}
+.settlement-item .ledger-row{grid-template-columns:1fr auto auto}
+.settlement-item .ledger-row .value{font-size:16px}
+.settlement-item p{font-size:11px;color:var(--muted);margin-top:9px}
+.security-section{background:var(--ink);color:var(--paper)}
+.security-layout{display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:center}
+.security-section .eyebrow,.security-section .muted{color:rgba(250,250,247,.72)}
+.security-section .eyebrow:before{background:var(--paper)}
+.security-copy h2{font-size:32px;margin-bottom:14px}
+.security-copy>p{font-size:14px;line-height:2.1;max-width:480px;color:rgba(250,250,247,.76)}
+.security-stat{display:flex;align-items:baseline;gap:14px;border-bottom:1px solid rgba(250,250,247,.25);padding:24px 0 18px;margin-bottom:15px}
+.security-stat strong{font-size:50px;font-weight:500;line-height:1.2}
+.security-stat span{font-size:13px}
+.security-section .text-link{color:var(--paper);font-size:12px}
+.security-list{border:1px solid rgba(250,250,247,.22);border-radius:10px;padding:5px 25px}
+.security-item{display:flex;gap:15px;align-items:flex-start;padding:21px 0;border-bottom:1px solid rgba(250,250,247,.17)}
+.security-item:last-child{border:0}
+.security-item .icon{margin-top:4px}
+.security-item h3{font-family:Vazirmatn,sans-serif;font-size:14px;letter-spacing:0}
+.security-item p{font-size:11px;color:rgba(250,250,247,.7);margin-top:5px}
+.report-detail{margin-top:15px;font-size:12px;color:rgba(250,250,247,.75)}
+.report-detail summary{cursor:pointer;list-style:none;color:var(--paper);text-decoration:underline;text-underline-offset:5px}
+.report-detail p{padding-top:10px}
+.app-section{overflow:hidden;padding-bottom:0}
+.app-layout{display:grid;grid-template-columns:1.15fr 1fr;gap:90px;align-items:center}
+.app-copy{padding-bottom:64px}
+.app-copy h2{font-size:31px;margin-bottom:14px}
+.app-copy>p{font-size:14px;color:var(--muted);max-width:500px}
+.app-rating{display:flex;gap:12px;align-items:center;font-size:12px;margin-top:22px}
+.stars{letter-spacing:2px;font-size:16px;color:var(--ink)}
+.app-downloads{display:grid;grid-template-columns:1fr 1fr;gap:10px;max-width:440px;margin-top:25px}
+.download-button{display:flex;align-items:center;gap:10px;text-align:right;border:1px solid var(--line);border-radius:8px;background:transparent;padding:9px 14px;min-height:57px;color:var(--ink)}
+.download-button:hover{border-color:var(--blue);background:var(--wash);color:var(--blue)}
+.download-button span{font-size:12px;font-weight:600}
+.download-button small{display:block;font-size:9px;font-weight:400;color:var(--muted)}
+.download-status{font-size:11px;color:var(--muted);margin-top:12px}
+.phone-stage{position:relative;align-self:end;display:flex;justify-content:center;padding-top:10px;background:linear-gradient(0deg,rgba(51,70,168,.04),transparent);border-bottom:0}
+.phone{width:288px;border:1px solid rgba(37,38,43,.4);border-bottom:0;border-radius:34px 34px 0 0;background:var(--paper);padding:10px 13px 0;box-shadow:15px 10px 0 rgba(37,38,43,.035);min-height:415px}
+.phone-camera{width:68px;height:5px;background:var(--ink);border-radius:5px;margin:4px auto 23px}
+.phone-header{display:flex;justify-content:space-between;align-items:center;padding:0 5px;font-size:12px}
+.phone-header .icon{width:17px;height:17px}
+.phone-balance{margin-top:24px;padding:16px 11px;border-top:1px solid var(--line);border-bottom:3px double var(--ink)}
+.phone-balance small{font-size:10px;color:var(--muted)}
+.phone-balance strong{font-size:26px;display:block;font-weight:500;margin-top:4px}
+.phone-balance strong span{font-size:11px;font-weight:400}
+.phone-actions{display:flex;gap:9px;margin:15px 0 22px}
+.phone-actions span{font-size:10px;flex:1;text-align:center;padding:5px;border:1px solid var(--line);border-radius:5px}
+.phone-actions span:first-child{background:var(--blue);color:var(--paper);border-color:var(--blue)}
+.phone-list-title{font-size:11px;padding-bottom:5px}
+.phone-row{display:flex;justify-content:space-between;align-items:center;border-top:1px solid var(--line);padding:11px 0;font-size:10px}
+.phone-row .coin-name{gap:7px}.phone-row .coin-symbol{width:25px;height:25px;font-size:13px}
+.phone-row strong{font-size:10px}
+.phone-note{position:absolute;left:0;top:61px;width:145px;padding:12px 14px;background:var(--note);border-radius:7px;font-size:11px;box-shadow:0 6px 18px rgba(37,38,43,.04)}
+.phone-note .icon{width:17px;height:17px;display:block;margin-bottom:5px}
+.reviews-layout{display:grid;grid-template-columns:.8fr 2fr;gap:45px}
+.review-summary h2{font-size:28px;margin-bottom:15px}
+.review-score{font-size:46px;font-weight:500;line-height:1.5}
+.review-score small{font-size:17px;color:var(--muted);font-weight:400}
+.review-source{font-size:11px;color:var(--muted)}
+.review-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.review-card{border:1px solid var(--line);border-radius:9px;padding:20px 17px;display:flex;flex-direction:column}
+.review-topic{font-size:10px;color:var(--muted);padding-bottom:13px;border-bottom:1px solid var(--line);margin-bottom:16px}
+.review-card blockquote{font-size:13px;margin:0 0 20px;line-height:2.1;flex:1}
+.review-author{display:flex;justify-content:space-between;gap:10px;align-items:center;font-size:11px}
+.review-author time{font-size:9px;color:var(--muted)}
+.referral-strip{display:flex;align-items:center;justify-content:space-between;gap:25px;border-top:1px solid var(--line);margin-top:36px;padding-top:25px}
+.referral-strip strong{font-size:14px;font-weight:500}
+.referral-strip p{font-size:11px;color:var(--muted);margin-top:4px}
+.articles-grid{display:grid;grid-template-columns:1.3fr 1fr 1fr;gap:24px}
+.article-card{border:1px solid var(--line);border-radius:10px;overflow:hidden;display:flex;flex-direction:column}
+.article-art{height:165px;background:var(--wash);padding:24px;display:flex;align-items:center;justify-content:center;border-bottom:1px solid var(--line)}
+.mini-ledger{width:100%;max-width:250px;font-size:11px}
+.mini-ledger .ledger-row{padding:8px 0;grid-template-columns:1fr auto 30px}
+.mini-ledger .value{font-size:12px}
+.network-diagram{display:flex;align-items:center;justify-content:center;gap:12px;width:100%;direction:ltr}
+.network-diagram span{width:54px;height:54px;border:1px solid rgba(37,38,43,.3);border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:12px}
+.network-diagram i{width:25px;border-top:1px solid var(--ink);position:relative}
+.network-diagram i:after{content:"";position:absolute;right:0;top:-3px;border-top:3px solid transparent;border-bottom:3px solid transparent;border-left:5px solid var(--ink)}
+.cycle-art{width:100%;max-width:230px}
+.cycle-art .cycle-line{display:flex;justify-content:space-between;position:relative;margin:11px 0 19px}
+.cycle-line:before{content:"";position:absolute;top:6px;left:0;right:0;border-top:1px solid var(--ink)}
+.cycle-line span{width:13px;height:13px;border-radius:50%;border:2px solid var(--blue);background:var(--paper);z-index:1}
+.cycle-art p{font-size:12px}.cycle-art small{font-size:10px;color:var(--muted)}
+.article-body{padding:19px 21px;flex:1}
+.article-meta{font-size:10px;color:var(--muted);display:flex;justify-content:space-between;margin-bottom:10px}
+.article-card h3{font-size:16px;margin-bottom:10px}
+.article-card p{font-size:12px;color:var(--muted)}
+.article-card details{margin:0 21px 20px;font-size:12px}
+.article-card summary{cursor:pointer;color:var(--blue);list-style:none;font-weight:500}
+.article-card summary:after{content:" ←";padding-right:5px}
+.article-card details[open] summary:after{content:" −"}
+.article-card details p{padding-top:12px;line-height:2.1}
+.faq-layout{display:grid;grid-template-columns:.65fr 1.35fr;gap:70px}
+.faq-intro p{font-size:13px;color:var(--muted);margin-top:13px}
+.faq-intro .text-link{font-size:12px;margin-top:20px}
+.faq-list details{border-bottom:1px solid var(--line)}
+.faq-list details:first-child{border-top:1px solid var(--line)}
+.faq-list summary{cursor:pointer;list-style:none;position:relative;padding:19px 0 19px 35px;font-size:14px;font-weight:500}
+summary::-webkit-details-marker{display:none}
+.faq-list summary:after{content:"+";position:absolute;left:4px;top:16px;font-size:23px;font-weight:400;color:var(--blue)}
+.faq-list details[open] summary:after{content:"−"}
+.faq-list details p{font-size:12px;color:var(--muted);line-height:2.1;padding:0 0 20px 30px}
+.contact-section{padding-top:45px;padding-bottom:45px}
+.contact-layout{display:grid;grid-template-columns:1.1fr 1fr 1fr;gap:40px}
+.contact-layout h3{font-size:16px;margin-bottom:12px}
+.contact-layout p{font-size:12px;color:var(--muted);line-height:2.2}
+.contact-layout .text-link{font-size:12px;margin-top:12px}
+.contact-ledger .ledger-row{font-size:11px;grid-template-columns:1fr auto;gap:12px;padding:9px 0}
+.contact-ledger .ledger-row .value{font-size:12px;font-weight:400;direction:rtl}
+.risk{padding:22px 25px;background:var(--note);border-radius:9px;display:flex;gap:16px;align-items:flex-start;margin-bottom:46px}
+.risk .icon{margin-top:4px}
+.risk strong{display:block;font-size:13px;margin-bottom:4px}
+.risk p{font-size:12px;line-height:2}
+.footer{border-top:1px solid var(--line);padding-top:40px}
+.footer-top{display:grid;grid-template-columns:1.5fr 1fr 1fr 1fr;gap:48px;padding-bottom:35px}
+.footer-brand p{font-size:12px;color:var(--muted);margin-top:15px;max-width:310px}
+.footer-col h3{font-family:Vazirmatn,sans-serif;font-size:13px;letter-spacing:0;margin-bottom:14px}
+.footer-col a{font-size:12px;color:var(--muted);display:block;padding:4px 0}
+.footer-col a:hover{color:var(--blue);text-decoration:underline}
+.trust-license{display:flex;justify-content:space-between;align-items:center;gap:30px;padding:22px 0;border-top:1px solid var(--line)}
+.license-info{font-size:11px;color:var(--muted)}
+.license-info strong{color:var(--ink);font-weight:500}
+.license-info p{margin-top:3px;font-size:10px}
+.footer-social{display:flex;align-items:center;gap:10px}
+.footer-social a{border:1px solid var(--line);border-radius:5px;font-size:11px;padding:4px 11px}
+.footer-social a:hover{border-color:var(--blue);background:var(--wash)}
+.footer-bottom{display:flex;justify-content:space-between;align-items:center;gap:20px;border-top:1px solid var(--line);font-size:10px;color:var(--muted);padding:16px 0 22px}
+.mobile-trade{display:none}
+@media(min-width:1450px){.hero{padding-top:72px;padding-bottom:42px}.hero-grid{gap:65px}.hero-copy h1{font-size:47px}}
+@media(max-width:1100px){
+.container{width:calc(100% - 44px)}.header-inner{gap:25px}.nav{gap:16px}.header-actions{gap:12px}.nav a{font-size:12px}
+.hero-grid{gap:27px;grid-template-columns:.75fr 1.5fr}.hero-copy h1{font-size:34px}.hero-copy>p{font-size:13px}.trade-form{padding:19px 16px}.order-preview{padding:22px 14px}.trade-body{grid-template-columns:1.06fr 1fr}.trade-support{padding-inline:15px;flex-wrap:wrap}.hero-features{font-size:11px;gap:8px 13px}
+.security-layout{gap:45px}.app-layout{gap:45px}.reviews-layout{grid-template-columns:1fr}.review-summary{display:flex;align-items:center;justify-content:space-between;gap:25px}.review-summary h2{margin:0}.review-score{font-size:35px}.phone-note{left:-9px;width:126px}.footer-top{gap:30px}
+}
+@media(max-width:850px){
+.header-inner{min-height:72px;gap:20px}.nav{display:none;position:absolute;top:100%;left:0;right:0;background:var(--paper);border-bottom:1px solid var(--line);padding:15px 25px;box-shadow:0 12px 16px rgba(37,38,43,.04)}.nav.is-open{display:grid;grid-template-columns:1fr 1fr;gap:3px 25px}.header-actions{margin-right:auto}.menu-button{display:flex}.brand-name{font-size:21px}
+.hero{padding-top:35px}.hero-grid{grid-template-columns:1fr;gap:27px}.hero-copy h1{font-size:36px;margin-bottom:11px}.hero-copy h1 br{display:none}.hero-copy>p{max-width:650px;font-size:14px}.hero-features{margin-top:16px;font-size:12px}.hero-caption{display:none}.trade-body{grid-template-columns:1fr 1fr}.trade-form{padding:23px}.order-preview{padding:25px}.trade-support{padding-inline:23px;flex-wrap:nowrap}.hero-bottom{font-size:11px}.hero-bottom-left{gap:16px}
+.market-table{min-width:750px}.market-table th,.market-table td{padding-inline:19px}.trust-item{padding-inline:22px}.trust-value{font-size:25px}
+.section{padding-block:55px}.start-layout{gap:22px}.signup-strip{align-items:flex-start;flex-direction:column}.signup-form{width:100%;max-width:none}.signup-form input{flex:1}.fees-layout{gap:28px}.account-table{font-size:11px}.account-table .amount{font-size:13px}.security-layout{grid-template-columns:1fr;gap:30px}.security-stat{max-width:460px}.security-copy>p{max-width:650px}.security-list{display:grid;grid-template-columns:1fr 1fr;gap:0 25px}.security-item:nth-child(3){border:0}
+.app-layout{gap:35px}.app-copy h2{font-size:26px}.app-downloads{grid-template-columns:1fr}.phone-note{display:none}.phone{width:260px}.app-section{padding-bottom:0}.app-copy{padding-bottom:45px}.articles-grid{gap:15px}.article-body{padding:16px}.article-card details{margin-inline:16px}.article-art{padding:16px;height:145px}.network-diagram{gap:7px}.network-diagram span{width:42px;height:45px;font-size:10px}.network-diagram i{width:15px}.faq-layout{gap:35px}.contact-layout{grid-template-columns:1fr 1fr;gap:30px}.contact-layout>div:first-child{grid-column:1/-1}.footer-top{grid-template-columns:1.4fr 1fr 1fr;gap:30px}.footer-col:last-child{grid-column:2/4}.footer-col:last-child a{display:inline-block;margin-left:20px}
+}
+@media(max-width:600px){
+body{font-size:14px}.container{width:calc(100% - 32px)}h2{font-size:24px}.section{padding-block:43px}.section-heading{align-items:flex-start;gap:15px;margin-bottom:23px}.section-heading p{font-size:12px}.section-heading>.text-link{font-size:11px;white-space:nowrap;margin-top:8px}.eyebrow{font-size:11px;margin-bottom:9px}
+.demo-bar{font-size:9px;padding:5px 8px}.header-inner{min-height:66px;gap:11px}.brand-mark{width:29px;height:33px}.brand{gap:7px}.brand-name{font-size:19px}.brand-caption{font-size:8px}.header-actions{gap:12px;font-size:11px}.header-actions .btn{min-height:36px;padding:5px 12px;font-size:11px}.menu-button{padding:6px;border:0}.menu-button .icon{width:21px;height:21px}
+.hero{padding-top:28px;padding-bottom:25px}.hero-grid{gap:22px}.hero-copy h1{font-size:30px;line-height:1.75;letter-spacing:-1px}.hero-copy h1 br{display:block}.hero-copy>p{font-size:12px;line-height:2}.hero-features{display:none}.trade-heading{padding:12px 16px}.trade-heading h2{font-size:14px}.trade-heading .tag{font-size:9px}.trade-body{grid-template-columns:1fr}.trade-form{padding:16px}.trade-tabs{margin-bottom:15px}.input-shell{min-height:53px;margin-bottom:13px}.form-help{font-size:10px}.order-preview{border-right:0;border-top:1px solid var(--line);padding:16px}.preview-heading{margin-bottom:6px}.ledger-row{padding:10px 0;grid-template-columns:1fr auto 46px}.order-preview .note{margin-top:13px}.preview-foot{padding-top:10px;font-size:9px}.trade-support{padding:11px 16px;align-items:flex-start;gap:7px;flex-direction:column;font-size:10px}.support-links{gap:14px}.hero-bottom{flex-direction:column;align-items:flex-start;gap:13px;margin-top:17px;padding-top:0}.hero-bottom-left{width:100%;justify-content:space-between;font-size:10px;gap:6px}.hero-bottom>span{font-size:10px}
+.market{padding-top:27px}.market .section-heading{align-items:center}.market .section-heading h2{font-size:23px}.market .section-heading p{font-size:11px}.market-tools{flex-direction:column-reverse;align-items:stretch;gap:13px}.search input{width:100%}.filter-tabs{gap:3px}.filter-tabs button{font-size:11px;padding:5px 11px}.market-table{min-width:654px}.market-table th,.market-table td{padding:12px 14px}.market-table th:first-child{width:26%}.market-table th:nth-child(2){width:24%}.market-table th:nth-child(4){width:16%}.market-table th:last-child{width:16%}.market-table td:first-child,.market-table th:first-child{position:sticky;right:0;background:var(--paper);z-index:2;border-left:1px solid var(--line)}.coin-symbol{width:29px;height:29px;font-size:16px}.coin-name{gap:8px}.coin-name strong{font-size:11px}.coin-name small{font-size:9px}.price-cell{font-size:12px!important}.spark{width:80px}.market-meta{align-items:flex-start;flex-direction:column;gap:10px;font-size:10px}.market-meta>.text-link{align-self:flex-end}.market-date{gap:8px}.table-scroll{border-radius:7px}
+.trust-strip{padding:22px 0}.trust-grid{grid-template-columns:1fr 1fr;gap:22px 0}.trust-item{padding:0 16px!important}.trust-item:nth-child(2){border:0}.trust-item:nth-child(odd){padding-right:0!important}.trust-value{font-size:25px}.trust-value small{font-size:11px}.trust-label{font-size:10px;margin-top:3px}
+.start-layout{grid-template-columns:1fr;gap:20px}.step{padding:0 49px 17px 0}.step-top{position:absolute;top:0;right:0}.step-top>.icon{display:none}.step-number{width:32px;height:32px}.step h3{font-size:16px}.step p{font-size:12px}.step-foot{padding-top:8px;font-size:10px}.signup-strip{padding:18px;gap:16px;margin-top:21px}.signup-copy strong{font-size:13px}.signup-form{gap:8px}.signup-form input{width:100%;min-width:0;font-size:13px}.signup-form .btn{font-size:12px;padding:8px 13px}.signup-copy p{font-size:10px}
+.fees-layout{grid-template-columns:1fr;gap:32px}.subheading h3{font-size:16px}.account-table{font-size:12px}.account-table .amount{font-size:14px}.settlement{grid-template-columns:1fr;gap:17px;margin-top:27px;padding-top:20px}.settlement-item p{margin-top:7px}.settlement-item .ledger-row{padding:8px 0}
+.security-copy h2{font-size:25px}.security-copy>p{font-size:12px}.security-stat{padding-top:20px}.security-stat strong{font-size:42px}.security-stat span{font-size:12px}.security-list{grid-template-columns:1fr;padding:0 18px;gap:0}.security-item{padding-block:17px}.security-item:nth-child(3){border-bottom:1px solid rgba(250,250,247,.17)}.security-item h3{font-size:13px}
+.app-layout{grid-template-columns:1fr;gap:0}.app-copy{padding-bottom:33px}.app-copy h2{font-size:25px}.app-copy>p{font-size:12px}.app-downloads{grid-template-columns:1fr 1fr;gap:9px;max-width:none;margin-top:21px}.download-button{padding:8px 10px;gap:8px}.download-button span{font-size:11px}.download-button .icon{width:19px;height:19px}.app-rating{font-size:11px;gap:8px}.phone{width:265px;min-height:385px}.phone-stage{padding-inline:15px}.phone-note{display:block;left:0;top:40px;width:114px;font-size:10px}.phone-header{font-size:11px}.app-section{padding-bottom:0}
+.reviews-layout{gap:23px}.review-summary{align-items:flex-start;gap:10px}.review-summary h2{font-size:23px;max-width:170px}.review-score{font-size:29px}.review-score small{font-size:12px}.review-source{font-size:9px}.review-grid{grid-template-columns:1fr;gap:12px}.review-card{padding:17px}.review-topic{padding-bottom:9px;margin-bottom:11px}.review-card blockquote{margin-bottom:15px;font-size:13px}.review-author{font-size:11px}.referral-strip{flex-direction:column;align-items:flex-start;gap:12px;margin-top:26px}.referral-strip strong{font-size:13px}.referral-strip .btn{min-height:39px;font-size:11px}
+.articles-grid{grid-template-columns:1fr;gap:17px}.article-card{display:grid;grid-template-columns:110px 1fr}.article-art{height:auto;min-height:150px;border-bottom:0;border-left:1px solid var(--line);grid-row:1/3;padding:10px}.article-body{padding:15px 13px 10px}.article-card h3{font-size:14px}.article-card p{font-size:11px}.article-meta{font-size:9px;margin-bottom:6px;flex-wrap:wrap;gap:3px}.article-card details{margin:0 13px 15px;font-size:11px}.article-card details[open]{grid-column:1/-1;margin-top:8px}.mini-ledger{font-size:8px}.mini-ledger .ledger-row{grid-template-columns:1fr auto;gap:3px;padding:7px 0}.mini-ledger .unit{display:none}.mini-ledger .value{font-size:9px}.network-diagram{flex-direction:column;gap:5px}.network-diagram i{transform:rotate(90deg);width:12px;margin-block:4px}.network-diagram span{width:45px;height:32px}.cycle-art p{font-size:10px}.cycle-art small{font-size:8px}.cycle-art .cycle-line{margin-block:13px}.cycle-line span{width:10px;height:10px}.cycle-line:before{top:4px}
+.faq-layout{grid-template-columns:1fr;gap:24px}.faq-intro p{font-size:12px}.faq-intro .text-link{margin-top:10px}.faq-list summary{font-size:12px;padding-block:17px}.faq-list details p{font-size:11px;padding-left:10px}.faq-list summary:after{top:12px}.contact-layout{grid-template-columns:1fr;gap:25px}.contact-layout>div:first-child{grid-column:auto}.contact-layout h3{font-size:15px}.contact-layout p{font-size:11px}.contact-ledger .ledger-row{font-size:11px}.risk{padding:17px;gap:10px;margin-bottom:30px}.risk strong{font-size:12px}.risk p{font-size:11px}
+.footer{padding-top:30px;padding-bottom:62px}.footer-top{grid-template-columns:1fr 1fr;gap:26px 23px}.footer-brand{grid-column:1/-1}.footer-brand p{font-size:11px;max-width:none}.footer-col:last-child{grid-column:1/-1}.footer-col a{font-size:11px}.footer-col h3{font-size:12px;margin-bottom:9px}.trust-license{align-items:flex-start;flex-direction:column;gap:15px;padding-block:18px}.license-info{font-size:10px}.license-info p{font-size:9px}.footer-bottom{font-size:9px;align-items:flex-start;flex-direction:column;gap:6px;padding-block:14px}
+.mobile-trade{position:fixed;bottom:0;left:0;right:0;z-index:40;display:flex;align-items:center;justify-content:space-between;gap:14px;padding:10px 16px calc(10px + env(safe-area-inset-bottom));border-top:1px solid var(--line);background:var(--paper);box-shadow:0 -4px 20px rgba(37,38,43,.04)}.mobile-trade strong{display:block;font-size:11px;font-weight:500}.mobile-trade small{display:block;font-size:9px;color:var(--muted)}.mobile-trade .btn{min-height:39px;font-size:12px;padding:6px 19px}
+}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
+</style>
+</head>
+<body>
+<svg xmlns="http://www.w3.org/2000/svg" style="position:absolute;width:0;height:0;overflow:hidden" aria-hidden="true">
+<symbol id="i-arrow" viewBox="0 0 24 24"><path d="M19 12H5m6-6-6 6 6 6"/></symbol>
+<symbol id="i-chevron" viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"/></symbol>
+<symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 3 4 6v6c0 5 8 9 8 9s8-4 8-9V6l-8-3Z"/><path d="m8.5 12 2.5 2.5 4.5-5"/></symbol>
+<symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></symbol>
+<symbol id="i-ledger" viewBox="0 0 24 24"><rect x="4" y="3" width="16" height="18" rx="2"/><path d="M8 8h8M8 12h3m3 0h2M8 16h8m-8 2h8"/></symbol>
+<symbol id="i-search" viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4.5 4.5"/></symbol>
+<symbol id="i-wallet" viewBox="0 0 24 24"><path d="M20 8V6a2 2 0 0 0-2-2H6a3 3 0 0 0 0 6h14v10H6a3 3 0 0 1-3-3V7m17 6h-5v4h5"/><path d="M16 15h1"/></symbol>
+<symbol id="i-user" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21v-2a8 8 0 0 1 16 0v2"/></symbol>
+<symbol id="i-check" viewBox="0 0 24 24"><path d="m5 12 4 4L19 6"/></symbol>
+<symbol id="i-lock" viewBox="0 0 24 24"><rect x="5" y="10" width="14" height="11" rx="2"/><path d="M8 10V7a4 4 0 0 1 8 0v3m-4 5v2"/></symbol>
+<symbol id="i-phone" viewBox="0 0 24 24"><path d="m8 3 3 5-3 3a16 16 0 0 0 5 5l3-3 5 3-2 5C11 22 2 13 3 5l5-2Z"/></symbol>
+<symbol id="i-mobile" viewBox="0 0 24 24"><rect x="6" y="2" width="12" height="20" rx="3"/><path d="M10 5h4m-3 14h2"/></symbol>
+<symbol id="i-download" viewBox="0 0 24 24"><path d="M12 3v12m-5-5 5 5 5-5M4 16v5h16v-5"/></symbol>
+<symbol id="i-chat" viewBox="0 0 24 24"><path d="M21 11a9 9 0 0 1-9 9H4l-2 2V11a9 9 0 0 1 19 0Z"/><path d="M7 11h.01M12 11h.01M17 11h.01"/></symbol>
+<symbol id="i-warning" viewBox="0 0 24 24"><path d="m12 3 10 18H2L12 3Z"/><path d="M12 9v5m0 3h.01"/></symbol>
+<symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 6h16M4 12h16M4 18h16"/></symbol>
+<symbol id="i-chart" viewBox="0 0 24 24"><path d="M4 3v17h17M7 14l4-5 4 3 5-7"/></symbol>
+</svg>
+
+<div class="demo-bar">این نسخه‌ی نمایشی بیت‌کاروان است؛ همه‌ی عددها، قیمت‌ها و شناسه‌ها نمونه‌اند و معامله‌ای انجام نمی‌شود.</div>
+<header class="header">
+<div class="container header-inner">
+<a class="brand" href="#" aria-label="بیت‌کاروان، صفحه اصلی">
+<svg class="brand-mark" viewBox="0 0 38 44" fill="none" aria-hidden="true"><path d="M5 5h28v34H5z" stroke="currentColor" stroke-width="2"/><path d="M10 13h18m-18 7h11m4 0h3m-18 7h18m-18 5h18m-18 3h18" stroke="currentColor" stroke-width="1.7"/></svg>
+<span><span class="brand-name">بیت‌کاروان</span><span class="brand-caption">دفترِ تومان، بازارِ رمزارز</span></span>
+</a>
+<nav class="nav" id="main-nav" aria-label="منوی اصلی">
+<a href="#markets">قیمت رمزارزها</a>
+<a href="#fees">کارمزدها</a>
+<a href="#security">امنیت دارایی</a>
+<a href="#learn">آموزش</a>
+<a href="#contact">پشتیبانی</a>
+</nav>
+<div class="header-actions">
+<a href="#start">ورود</a>
+<a class="btn btn-small" href="#start">ثبت‌نام</a>
+</div>
+<button class="menu-button" id="menu-toggle" type="button" aria-label="باز کردن منو" aria-expanded="false" aria-controls="main-nav"><svg class="icon"><use href="#i-menu"/></svg></button>
+</div>
+</header>
+
+<main>
+<section class="hero" aria-labelledby="hero-title">
+<div class="container">
+<div class="hero-grid">
+<div class="hero-copy">
+<div class="eyebrow">خرید و فروش رمزارز با تومان</div>
+<h1 id="hero-title">از تومان تا رمزارز،<br><span>همه‌چیز روی حساب.</span></h1>
+<p>اول مبلغ را وارد کنید، مقدار دریافتی و هزینه را ببینید؛ بعد تصمیم بگیرید. خرید و فروش بیش از ۱۲۰ رمزارز در بیت‌کاروان.</p>
+<div class="hero-features">
+<span><svg class="icon"><use href="#i-wallet"/></svg>شروع خرید از ۱۰۰ هزار تومان</span>
+<span><svg class="icon"><use href="#i-clock"/></svg>معامله در تمام ساعت‌ها</span>
+<span><svg class="icon"><use href="#i-shield"/></svg>نگهداری سرد دارایی</span>
+</div>
+<div class="hero-caption"><span>از ۱۳۹۹، همراه معامله‌گران</span><span>تهران، خیابان ولیعصر</span></div>
+</div>
+
+<div class="trade-card" id="trade">
+<div class="trade-heading"><h2>خرید و فروش فوری</h2><span class="tag">بدون پیچیدگی سفارش‌گذاری</span></div>
+<div class="trade-body">
+<form class="trade-form" id="trade-form">
+<div class="trade-tabs" aria-label="نوع معامله">
+<button type="button" id="buy-tab" aria-pressed="true">خرید رمزارز</button>
+<button type="button" id="sell-tab" aria-pressed="false">فروش رمزارز</button>
+</div>
+<label class="field-label" for="amount"><span id="amount-label" style="font-size:12px;color:var(--ink)">پرداخت می‌کنید</span><span id="amount-hint">حداقل ۱۰۰٬۰۰۰ تومان</span></label>
+<div class="input-shell"><input id="amount" name="amount" type="text" inputmode="decimal" autocomplete="off" placeholder="مبلغ را وارد کنید" aria-describedby="trade-help" maxlength="22"><span class="unit" id="input-unit">تومان</span></div>
+<label class="field-label" for="coin"><span id="coin-label" style="font-size:12px;color:var(--ink)">دریافت می‌کنید</span></label>
+<div class="coin-picker"><select id="coin" name="coin">
+<option value="USDT">تتر — USDT</option><option value="BTC">بیت‌کوین — BTC</option><option value="ETH">اتریوم — ETH</option><option value="TRX">ترون — TRX</option><option value="TON">تون‌کوین — TON</option><option value="SOL">سولانا — SOL</option><option value="DOGE">دوج‌کوین — DOGE</option><option value="PAXG">پکس گلد — PAXG</option>
+</select><svg class="icon"><use href="#i-chevron"/></svg></div>
+<p class="form-help" id="trade-help">پرداخت با کارت بانکی به نام خودتان؛ تا ۲۵ میلیون تومان در روز از درگاه شتاب.</p>
+<button class="btn trade-submit" type="submit"><span id="trade-button-text">بررسی و ادامه خرید</span><svg class="icon"><use href="#i-arrow"/></svg></button>
+<p class="form-status" id="trade-status" role="status"></p>
+</form>
+<aside class="order-preview" aria-label="پیش‌نمایش هزینه سفارش">
+<div class="preview-heading"><h3>پیش‌نمایش سفارش شما</h3><svg class="icon"><use href="#i-ledger"/></svg></div>
+<div class="ledger" aria-live="polite" aria-atomic="true">
+<div class="ledger-row"><span>پرداخت می‌کنید</span><span class="value" id="pay-value">—</span><span class="unit" id="pay-unit">تومان</span></div>
+<div class="ledger-row ledger-total"><span>دریافت می‌کنید</span><span class="value" id="receive-value">—</span><span class="unit" id="receive-unit">USDT</span></div>
+<div class="ledger-row"><span>کارمزد داخل قیمت</span><span class="value" id="fee-value">—</span><span class="unit">تومان</span></div>
+</div>
+<div class="note">هزینه‌ی جداگانه‌ای به مبلغ خرید فوری اضافه نمی‌شود. نرخ نهایی پیش از تأیید سفارش مشخص می‌شود.</div>
+<p class="preview-foot">مبنای این محاسبه: قیمت‌های نمونه‌ی ۲۲ مهر ۱۴۰۵، با کارمزد فرضی ۰٫۲۵٪؛ این پیش‌نمایش پیشنهاد معامله نیست.</p>
+</aside>
+</div>
+<div class="trade-support"><span>سؤالی دارید؟ <a href="#support-form">گفت‌وگو با پشتیبانی</a></span><div class="support-links"><a class="ltr" href="tel:02191000000">۰۲۱–۹۱۰۰۰۰۰۰</a><a href="https://wa.me/982191000000" target="_blank" rel="noopener noreferrer">واتس‌اپ</a><a href="https://t.me/bitkarvan_support" target="_blank" rel="noopener noreferrer">تلگرام</a><a href="https://ble.ir/bitkarvan_support" target="_blank" rel="noopener noreferrer">بله</a></div></div>
+</div>
+</div>
+<div class="hero-bottom">
+<div class="hero-bottom-left"><a href="#fees"><svg class="icon"><use href="#i-ledger"/></svg>جدول کارمزد بازار <svg class="icon"><use href="#i-arrow"/></svg></a><a href="#settlement"><svg class="icon"><use href="#i-clock"/></svg>تسویه‌ی تومان در چرخه‌های پایا <svg class="icon"><use href="#i-arrow"/></svg></a></div>
+<span class="muted">برداشت تومان: رایگان؛ زمان واریز تابع چرخه‌ی بانکی</span>
+</div>
+</div>
+</section>
+
+<section class="market section" id="markets" aria-labelledby="market-title">
+<div class="container">
+<div class="section-heading">
+<div><div class="eyebrow">دفتر قیمت‌ها</div><h2 id="market-title">بازار رمزارزها، به تومان</h2><p>قیمت، تغییر روزانه و مسیر بازار را کنار هم مقایسه کنید.</p></div>
+<a class="text-link" href="#trade">خرید فوری <svg class="icon"><use href="#i-arrow"/></svg></a>
+</div>
+<div class="market-tools">
+<div class="filter-tabs" aria-label="فیلتر بازار"><button type="button" data-filter="all" aria-pressed="true">همه‌ی ارزها</button><button type="button" data-filter="popular" aria-pressed="false">پرطرفدارها</button><button type="button" data-filter="stable" aria-pressed="false">استیبل‌کوین</button><button type="button" data-filter="gold" aria-pressed="false">طلای توکنی</button></div>
+<label class="search"><svg class="icon"><use href="#i-search"/></svg><span class="sr-only">جست‌وجوی نام یا نماد رمزارز</span><input id="market-search" type="search" placeholder="نام ارز یا نماد آن را جست‌وجو کنید"></label>
+</div>
+<div class="table-scroll" tabindex="0" role="region" aria-label="جدول قیمت رمزارزها؛ برای دیدن همه ستون‌ها به طرفین حرکت کنید">
+<table class="market-table">
+<thead><tr><th scope="col">نام رمزارز</th><th scope="col">قیمت <small>(تومان)</small></th><th scope="col">تغییر ۲۴ ساعته</th><th scope="col">روند نمونه‌ی ۷ روز</th><th scope="col"><span class="sr-only">معامله</span></th></tr></thead>
+<tbody>
+<tr data-name="تتر USDT" data-group="popular stable"><td><div class="coin-name"><span class="coin-symbol">₮</span><span><strong>تتر</strong><small lang="en" dir="ltr">USDT</small></span></div></td><td class="price-cell num">۱۰۸٬۴۰۰</td><td><span class="change num">+۰٫۳٪</span></td><td><svg class="spark" viewBox="0 0 110 32" aria-hidden="true"><path d="M1 23 10 22 18 24 26 18 34 21 42 17 50 19 58 13 66 16 75 12 83 14 92 8 100 10 109 6"/></svg></td><td><button class="market-buy" data-coin="USDT">خرید <svg class="icon"><use href="#i-arrow"/></svg></button></td></tr>
+<tr data-name="بیت‌کوین بیت کوین BTC" data-group="popular"><td><div class="coin-name"><span class="coin-symbol">₿</span><span><strong>بیت‌کوین</strong><small lang="en" dir="ltr">BTC</small></span></div></td><td class="price-cell num">۱۱٬۹۰۰٬۰۰۰٬۰۰۰</td><td><span class="change num">−۱٫۲٪</span></td><td><svg class="spark" viewBox="0 0 110 32" aria-hidden="true"><path d="M1 8 10 11 18 7 26 13 34 10 42 18 50 14 58 21 66 19 75 25 83 18 92 24 100 22 109 28"/></svg></td><td><button class="market-buy" data-coin="BTC">خرید <svg class="icon"><use href="#i-arrow"/></svg></button></td></tr>
+<tr data-name="اتریوم ETH" data-group="popular"><td><div class="coin-name"><span class="coin-symbol">Ξ</span><span><strong>اتریوم</strong><small lang="en" dir="ltr">ETH</small></span></div></td><td class="price-cell num">۴۳۰٬۰۰۰٬۰۰۰</td><td><span class="change num">+۲٫۱٪</span></td><td><svg class="spark" viewBox="0 0 110 32" aria-hidden="true"><path d="M1 27 10 22 18 25 26 19 34 21 42 14 50 18 58 11 66 16 75 9 83 12 92 6 100 9 109 3"/></svg></td><td><button class="market-buy" data-coin="ETH">خرید <svg class="icon"><use href="#i-arrow"/></svg></button></td></tr>
+<tr data-name="ترون TRX" data-group="popular"><td><div class="coin-name"><span class="coin-symbol" style="font-size:15px">TR</span><span><strong>ترون</strong><small lang="en" dir="ltr">TRX</small></span></div></td><td class="price-cell num">۳۷٬۲۰۰</td><td><span class="change num">+۰٫۸٪</span></td><td><svg class="spark" viewBox="0 0 110 32" aria-hidden="true"><path d="M1 23 10 25 18 20 26 22 34 17 42 19 50 14 58 17 66 12 75 15 83 10 92 13 100 8 109 10"/></svg></td><td><button class="market-buy" data-coin="TRX">خرید <svg class="icon"><use href="#i-arrow"/></svg></button></td></tr>
+<tr data-name="تون‌کوین تون کوین TON" data-group=""><td><div class="coin-name"><span class="coin-symbol">T</span><span><strong>تون‌کوین</strong><small lang="en" dir="ltr">TON</small></span></div></td><td class="price-cell num">۵۹۰٬۰۰۰</td><td><span class="change num">−۳٫۴٪</span></td><td><svg class="spark" viewBox="0 0 110 32" aria-hidden="true"><path d="M1 5 10 10 18 7 26 16 34 12 42 19 50 15 58 22 66 18 75 25 83 22 92 27 100 24 109 29"/></svg></td><td><button class="market-buy" data-coin="TON">خرید <svg class="icon"><use href="#i-arrow"/></svg></button></td></tr>
+<tr data-name="سولانا SOL" data-group="popular"><td><div class="coin-name"><span class="coin-symbol">≋</span><span><strong>سولانا</strong><small lang="en" dir="ltr">SOL</small></span></div></td><td class="price-cell num">۲۱٬۰۰۰٬۰۰۰</td><td><span class="change num">+۴٫۶٪</span></td><td><svg class="spark" viewBox="0 0 110 32" aria-hidden="true"><path d="M1 29 10 24 18 27 26 20 34 23 42 14 50 19 58 10 66 14 75 8 83 12 92 4 100 7 109 2"/></svg></td><td><button class="market-buy" data-coin="SOL">خرید <svg class="icon"><use href="#i-arrow"/></svg></button></td></tr>
+<tr data-name="دوج‌کوین دوج کوین DOGE" data-group=""><td><div class="coin-name"><span class="coin-symbol">Ð</span><span><strong>دوج‌کوین</strong><small lang="en" dir="ltr">DOGE</small></span></div></td><td class="price-cell num">۲۶٬۵۰۰</td><td><span class="change num">+۱٫۱٪</span></td><td><svg class="spark" viewBox="0 0 110 32" aria-hidden="true"><path d="M1 24 10 21 18 25 26 18 34 22 42 15 50 19 58 15 66 17 75 10 83 14 92 9 100 12 109 7"/></svg></td><td><button class="market-buy" data-coin="DOGE">خرید <svg class="icon"><use href="#i-arrow"/></svg></button></td></tr>
+<tr data-name="پکس گلد طلا PAXG" data-group="gold"><td><div class="coin-name"><span class="coin-symbol" style="font-size:12px">Au</span><span><strong>پکس گلد</strong><small lang="en" dir="ltr">PAXG</small></span></div></td><td class="price-cell num">۴۵۰٬۰۰۰٬۰۰۰</td><td><span class="change num">+۰٫۲٪</span></td><td><svg class="spark" viewBox="0 0 110 32" aria-hidden="true"><path d="M1 20 10 21 18 18 26 20 34 17 42 19 50 15 58 17 66 14 75 16 83 13 92 15 100 11 109 12"/></svg></td><td><button class="market-buy" data-coin="PAXG">خرید <svg class="icon"><use href="#i-arrow"/></svg></button></td></tr>
+</tbody>
+</table>
+<p class="empty-market" id="market-empty" role="status">رمزارزی با این نام در این فهرست پیدا نشد.</p>
+</div>
+<div class="market-meta"><div class="market-date"><span class="tag">داده‌های نمونه</span><time datetime="2026-10-14">۲۲ مهر ۱۴۰۵، ساعت ۱۲:۳۰</time><span>قیمت‌ها ثابت‌اند؛ نمودارها صرفاً نمایشی‌اند.</span></div><a class="text-link" href="#trade">انتخاب ارز و محاسبه‌ی خرید <svg class="icon"><use href="#i-arrow"/></svg></a></div>
+</div>
+</section>
+
+<div class="trust-strip" aria-label="بیت‌کاروان در یک نگاه">
+<div class="container trust-grid">
+<div class="trust-item"><div class="trust-value num">۱٫۲ <small>میلیون نفر</small></div><div class="trust-label">کاربر ثبت‌نام‌شده از ۱۳۹۹</div></div>
+<div class="trust-item"><div class="trust-value num">۴۸۰ <small>هزار نفر</small></div><div class="trust-label">کاربر احراز هویت‌شده</div></div>
+<div class="trust-item"><div class="trust-value num">۹۵۰ <small>میلیارد تومان</small></div><div class="trust-label">حجم معاملات در ۲۴ ساعت</div></div>
+<div class="trust-item"><div class="trust-value num">۱۲۰+ <small>رمزارز</small></div><div class="trust-label">برای خرید، فروش و نگهداری</div></div>
+</div>
+</div>
+
+<section class="section" id="start" aria-labelledby="start-title">
+<div class="container">
+<div class="section-heading"><div><div class="eyebrow">شروع کار با بیت‌کاروان</div><h2 id="start-title">سه قدم تا اولین خرید</h2><p>ثبت‌نام رایگان است. اطلاعات هویتی و حساب بانکی باید متعلق به خودتان باشد.</p></div><a class="text-link" href="#levels">سقف سطح‌های کاربری <svg class="icon"><use href="#i-arrow"/></svg></a></div>
+<div class="start-layout">
+<article class="step"><div class="step-top"><span class="step-number">۰۱</span><svg class="icon"><use href="#i-user"/></svg></div><h3>با شماره‌ی خودتان ثبت‌نام کنید</h3><p>شماره‌ی موبایل به نام خودتان را وارد کنید و با کد پیامکی، حساب کاربری بسازید.</p><div class="step-foot">فقط شماره‌ی موبایل و یک رمز عبور</div></article>
+<article class="step"><div class="step-top"><span class="step-number">۰۲</span><svg class="icon"><use href="#i-shield"/></svg></div><h3>احراز هویت را کامل کنید</h3><p>کارت ملی و کارت بانکی را ثبت کنید. برای افزایش سقف خرید، سلفی ویدیویی بفرستید.</p><div class="step-foot">پیگیری وضعیت از داخل حساب</div></article>
+<article class="step"><div class="step-top"><span class="step-number">۰۳</span><svg class="icon"><use href="#i-wallet"/></svg></div><h3>تومان واریز کنید و بخرید</h3><p>از درگاه شتاب یا واریز با شناسه استفاده کنید؛ سپس مقدار و هزینه را ببینید و خرید کنید.</p><div class="step-foot">شروع خرید فوری از ۱۰۰٬۰۰۰ تومان</div></article>
+</div>
+<div class="signup-strip">
+<div class="signup-copy"><strong>حساب بیت‌کاروان شما، از همین‌جا شروع می‌شود.</strong><p>با ادامه، <a href="#terms" style="text-decoration:underline">شرایط استفاده</a> و <a href="#privacy" style="text-decoration:underline">حریم خصوصی</a> را می‌پذیرید.</p></div>
+<form class="signup-form" id="signup-form"><label class="sr-only" for="signup-phone">شماره موبایل</label><input type="tel" inputmode="tel" id="signup-phone" placeholder="شماره موبایل به نام خودتان" required autocomplete="tel" maxlength="13"><button class="btn" type="submit">ثبت‌نام / ورود <svg class="icon"><use href="#i-arrow"/></svg></button><p class="signup-status" id="signup-status" role="status"></p></form>
+</div>
+</div>
+</section>
+
+<section class="section" id="fees" aria-labelledby="fees-title">
+<div class="container">
+<div class="section-heading"><div><div class="eyebrow">هزینه‌ها، بدون ریزنویس پنهان</div><h2 id="fees-title">قبل از معامله، حساب هزینه را بدانید</h2><p>کارمزد بازار به حجم معاملات ۳۰ روز گذشته بستگی دارد؛ کارمزد خرید فوری داخل قیمت است.</p></div></div>
+<div class="fees-layout">
+<div>
+<div class="subheading"><h3>کارمزد معامله در بازار</h3><small>برای هر معامله</small></div>
+<table class="account-table"><thead><tr><th scope="col">حجم معامله در ۳۰ روز</th><th scope="col">کارمزد</th></tr></thead><tbody>
+<tr><td>کمتر از ۱۰۰ میلیون تومان</td><td><span class="amount">۰٫۲۵</span><span class="unit">درصد</span></td></tr>
+<tr><td>از ۱۰۰ میلیون تا کمتر از ۱ میلیارد تومان</td><td><span class="amount">۰٫۲۰</span><span class="unit">درصد</span></td></tr>
+<tr><td>از ۱ تا کمتر از ۱۰ میلیارد تومان</td><td><span class="amount">۰٫۱۵</span><span class="unit">درصد</span></td></tr>
+<tr><td>۱۰ میلیارد تومان و بیشتر</td><td><span class="amount">۰٫۱۰</span><span class="unit">درصد</span></td></tr>
+</tbody></table>
+<div class="note fee-note">مثلاً کارمزد یک معامله‌ی ۱ میلیون تومانی در پله‌ی اول، ۲٬۵۰۰ تومان است. این جدول برای بازار سفارش‌گذاری است، نه قیمت‌گذاری خرید فوری.</div>
+</div>
+<div id="levels">
+<div class="subheading"><h3>سطح حساب و سقف خرید روزانه</h3><small>پس از تأیید اطلاعات</small></div>
+<table class="account-table"><thead><tr><th scope="col">سطح و مدارک لازم</th><th scope="col">سقف روزانه</th></tr></thead><tbody>
+<tr><td>سطح ۱<span class="level-description">موبایل، کارت ملی و کارت بانکی به نام خود</span></td><td><span class="amount">۵۰ میلیون</span><span class="unit">تومان</span></td></tr>
+<tr><td>سطح ۲<span class="level-description">مدارک سطح ۱ و سلفی ویدیویی</span></td><td><span class="amount">۵۰۰ میلیون</span><span class="unit">تومان</span></td></tr>
+<tr><td>سطح ۳<span class="level-description">مدارک سطح ۲ و مدرک محل سکونت</span></td><td><span class="amount">۲ میلیارد</span><span class="unit">تومان</span></td></tr>
+</tbody></table>
+<p class="muted" style="font-size:11px;margin-top:17px">سقف درگاه شتاب مستقل از سطح حساب، ۲۵ میلیون تومان در روز است. برای مبالغ بیشتر، واریز با شناسه تا سقف سطح کاربری در دسترس است.</p>
+</div>
+</div>
+<div class="settlement" id="settlement">
+<div class="settlement-item"><div class="ledger-row ledger-total"><span>کارمزد برداشت تومان</span><span class="value">۰</span><span class="unit">تومان</span></div><p>برداشت فقط به حساب بانکی تأییدشده و به نام صاحب حساب انجام می‌شود.</p></div>
+<div class="settlement-item"><div class="ledger-row ledger-total"><span>چرخه‌های تسویه‌ی پایا</span><span class="value">۴</span><span class="unit">بار در روز کاری</span></div><p>زمان رسیدن وجه به ثبت درخواست، تعطیلی‌ها و پردازش بانک مقصد بستگی دارد؛ واریز آنی نیست.</p></div>
+<div class="settlement-item"><div class="ledger-row ledger-total"><span>برداشت رمزارز</span><span class="value" style="font-size:12px">فقط کارمزد شبکه</span><span class="unit"></span></div><p>مبلغ به رمزارز و شبکه‌ی انتخابی بستگی دارد و پیش از تأیید برداشت نمایش داده می‌شود.</p></div>
+</div>
+</div>
+</section>
+
+<section class="section security-section" id="security" aria-labelledby="security-title">
+<div class="container security-layout">
+<div class="security-copy">
+<div class="eyebrow">نگهداری دارایی، با لایه‌های مشخص</div>
+<h2 id="security-title">امنیت را با سازوکار بسنجید،<br>نه با یک وعده.</h2>
+<p>نگهداری آفلاین بخش اصلی دارایی‌ها، کنترل ورود و تأیید برداشت، هرکدام یک لایه‌ی جدا از حفاظت حساب شما هستند.</p>
+<div class="security-stat"><strong class="num">۹۵٪</strong><span>دارایی کاربران در کیف پول سرد نگهداری می‌شود.</span></div>
+<details class="report-detail"><summary>درباره‌ی گزارش ماهانه‌ی ذخایر دارایی</summary><p>گزارش ماهانه، وضعیت ذخایر رمزارزی و روش بررسی آن‌ها را توضیح می‌دهد. گزارش ذخایر به‌تنهایی حسابرسی کامل بدهی‌ها یا تضمین نقدشوندگی نیست. برای دریافت جزئیات از پشتیبانی تیکت ثبت کنید.</p></details>
+</div>
+<div class="security-list">
+<div class="security-item"><svg class="icon"><use href="#i-lock"/></svg><div><h3>ورود دومرحله‌ای</h3><p>یک لایه‌ی اضافه در کنار رمز عبور؛ فعال‌سازی از تنظیمات امنیت حساب.</p></div></div>
+<div class="security-item"><svg class="icon"><use href="#i-mobile"/></svg><div><h3>تأیید برداشت با پیامک و ایمیل</h3><p>درخواست خروج دارایی، بدون گذر از مرحله‌ی تأیید نهایی انجام نمی‌شود.</p></div></div>
+<div class="security-item"><svg class="icon"><use href="#i-shield"/></svg><div><h3>فهرست آدرس‌های برداشت امن</h3><p>آدرس‌های مورداعتماد را ثبت کنید تا احتمال ارسال به مقصد اشتباه کمتر شود.</p></div></div>
+<div class="security-item"><svg class="icon"><use href="#i-ledger"/></svg><div><h3>گزارش ماهانه‌ی ذخایر</h3><p>اطلاعات ذخایر دارایی با توضیح روش گزارش‌دهی، در دسترس کاربران قرار می‌گیرد.</p></div></div>
+</div>
+</div>
+</section>
+
+<section class="section app-section" id="app" aria-labelledby="app-title">
+<div class="container app-layout">
+<div class="app-copy">
+<div class="eyebrow">همان حساب روشن، در جیب شما</div>
+<h2 id="app-title">بازارتان را همراه داشته باشید.</h2>
+<p>خرید و فروش، بررسی موجودی، واریز و برداشت و ارتباط با پشتیبانی؛ در اپلیکیشن اندروید و وب‌اپ آیفون.</p>
+<div class="app-rating"><span class="stars" aria-hidden="true">★★★★★</span><strong class="num">۴٫۶ از ۵</strong><span class="muted">از ۳۲ هزار نظر در کافه‌بازار</span></div>
+<div class="app-downloads">
+<button type="button" class="download-button" data-platform="دانلود مستقیم اندروید"><svg class="icon"><use href="#i-download"/></svg><span>دانلود مستقیم<small>نسخه‌ی اندروید</small></span></button>
+<button type="button" class="download-button" data-platform="کافه‌بازار"><svg class="icon"><use href="#i-mobile"/></svg><span>دریافت از کافه‌بازار<small>اندروید</small></span></button>
+<button type="button" class="download-button" data-platform="مایکت"><svg class="icon"><use href="#i-download"/></svg><span>دریافت از مایکت<small>اندروید</small></span></button>
+<button type="button" class="download-button" data-platform="وب‌اپ آیفون"><svg class="icon"><use href="#i-mobile"/></svg><span>وب‌اپ آیفون<small>بدون نیاز به اپ‌استور</small></span></button>
+</div>
+<p class="download-status" id="download-status" role="status">برای امنیت بیشتر، فایل نصب را فقط از مسیرهای رسمی بیت‌کاروان دریافت کنید.</p>
+</div>
+<div class="phone-stage" aria-label="نمایی از رابط اپلیکیشن بیت‌کاروان">
+<div class="phone">
+<div class="phone-camera"></div>
+<div class="phone-header"><strong>بیت‌کاروان</strong><svg class="icon"><use href="#i-user"/></svg></div>
+<div class="phone-balance"><small>ارزش تخمینی دارایی‌های شما</small><strong class="num">۲۴٬۸۶۰٬۰۰۰ <span>تومان</span></strong></div>
+<div class="phone-actions" aria-hidden="true"><span>واریز تومان</span><span>برداشت</span><span>تاریخچه</span></div>
+<div class="phone-list-title">دفتر دارایی</div>
+<div class="phone-row"><div class="coin-name"><span class="coin-symbol">₮</span><strong>تتر</strong></div><span class="num">۱۲۰ <span lang="en">USDT</span></span></div>
+<div class="phone-row"><div class="coin-name"><span class="coin-symbol">₿</span><strong>بیت‌کوین</strong></div><span class="num">۰٫۰۰۰۶ <span lang="en">BTC</span></span></div>
+<div class="phone-row"><div class="coin-name"><span class="coin-symbol">Ξ</span><strong>اتریوم</strong></div><span class="num">۰٫۰۱۱ <span lang="en">ETH</span></span></div>
+</div>
+<div class="phone-note"><svg class="icon"><use href="#i-ledger"/></svg>مبلغ، مقدار و واحد؛<br>هرکدام در ستون خودش.</div>
+</div>
+</div>
+</section>
+
+<section class="section" aria-labelledby="reviews-title">
+<div class="container">
+<div class="reviews-layout">
+<div class="review-summary"><div><div class="eyebrow">از تجربه‌ی کاربران</div><h2 id="reviews-title">پشت هر عدد،<br>یک تجربه است.</h2></div><div><div class="review-score num">۴٫۶ <small>از ۵</small></div><div class="review-source">کافه‌بازار، ۳۲ هزار نظر<br>تا ۲۲ مهر ۱۴۰۵</div></div></div>
+<div class="review-grid">
+<article class="review-card"><div class="review-topic">موضوع: برداشت تومان</div><blockquote>«برداشت تومانی‌ام همان چرخه‌ی پایای بعدی رسید.»</blockquote><div class="review-author"><strong>حمید</strong><time datetime="2026-10-02">۱۴۰۵/۰۷/۱۰</time></div></article>
+<article class="review-card"><div class="review-topic">موضوع: احراز هویت سطح دو</div><blockquote>«احراز هویت سطح دو یک ساعته تأیید شد.»</blockquote><div class="review-author"><strong>نگار</strong><time datetime="2026-09-13">۱۴۰۵/۰۶/۲۲</time></div></article>
+<article class="review-card"><div class="review-topic">موضوع: پشتیبانی شبانه</div><blockquote>«پشتیبانی ساعت دو شب هم جواب داد.»</blockquote><div class="review-author"><strong>رضا</strong><time datetime="2026-10-10">۱۴۰۵/۰۷/۱۸</time></div></article>
+</div>
+</div>
+<p class="muted" style="font-size:10px;margin-top:17px">منبع نقل‌قول‌ها: بازخوردهای ثبت‌شده در بیت‌کاروان. امتیاز کلی از کافه‌بازار است. زمان احراز هویت و تسویه برای همه‌ی درخواست‌ها یکسان نیست.</p>
+<div class="referral-strip"><div><strong>بیت‌کاروان را به دوستانتان معرفی کنید.</strong><p>۲۰٪ از کارمزد معامله‌های دوست دعوت‌شده به شما می‌رسد؛ نه از اصل دارایی او. جزئیات در بخش دعوت از دوستان حساب شماست.</p></div><a href="#start" class="btn btn-outline btn-small">دریافت لینک دعوت <svg class="icon"><use href="#i-arrow"/></svg></a></div>
+</div>
+</section>
+
+<section class="section" id="learn" aria-labelledby="learn-title">
+<div class="container">
+<div class="section-heading"><div><div class="eyebrow">یادداشت‌های دفترِ تومان</div><h2 id="learn-title">قبل از اولین معامله، این‌ها را بخوانید</h2><p>آموزش کاربردی برای شناخت هزینه‌ها، شبکه‌ها و مسیر پول.</p></div></div>
+<div class="articles-grid">
+<article class="article-card">
+<div class="article-art" aria-hidden="true"><div class="mini-ledger"><div class="ledger-row"><span>مبلغ خرید</span><span class="value">۱٬۰۰۰٬۰۰۰</span><span class="unit">تومان</span></div><div class="ledger-row"><span>کارمزد بازار</span><span class="value">۲٬۵۰۰</span><span class="unit">تومان</span></div><div class="ledger-row ledger-total"><span>نرخ کارمزد</span><span class="value">۰٫۲۵</span><span class="unit">درصد</span></div></div></div>
+<div class="article-body"><div class="article-meta"><span>هزینه‌ی معامله</span><span>۲۰ مهر ۱۴۰۵</span></div><h3>خرید فوری یا بازار؛ هزینه‌ی واقعی کدام کمتر است؟</h3><p>فقط درصد کارمزد را مقایسه نکنید؛ مبلغ نهایی دریافتی مهم‌تر است.</p></div>
+<details><summary>خواندن راهنمای کوتاه</summary><p>در بازار، قیمت سفارش و کارمزد معامله جداگانه محاسبه می‌شوند. در خرید فوری، کارمزد داخل قیمت پیشنهادی است. برای مقایسه، یک مبلغ یکسان را در هر دو روش وارد کنید و مقدار نهایی دریافتی را بسنجید. اختلاف قیمت خرید و فروش و عمق سفارش‌های بازار هم روی هزینه اثر می‌گذارند.</p></details>
+</article>
+<article class="article-card">
+<div class="article-art" aria-hidden="true"><div class="network-diagram"><span>USDT</span><i></i><span>TRC20</span><i></i><span>کیف پول</span></div></div>
+<div class="article-body"><div class="article-meta"><span>واریز و برداشت</span><span>۱۸ مهر ۱۴۰۵</span></div><h3>قبل از انتقال تتر، شبکه را دوباره بررسی کنید</h3><p>نام رمزارز کافی نیست؛ شبکه‌ی مبدأ و مقصد باید یکی باشد.</p></div>
+<details><summary>خواندن راهنمای کوتاه</summary><p>تتر روی چند شبکه منتقل می‌شود. پیش از ارسال، شبکه‌ی پشتیبانی‌شده در مقصد، آدرس و حداقل واریز را بررسی کنید. اگر مقصد تگ یا ممو می‌خواهد، آن را هم وارد کنید. ارسال روی شبکه‌ی اشتباه می‌تواند باعث از دست رفتن دارایی شود. برای انتقال اول، مبلغ کمی را آزمایش کنید.</p></details>
+</article>
+<article class="article-card">
+<div class="article-art" aria-hidden="true"><div class="cycle-art"><p>از درخواست تا حساب بانکی</p><div class="cycle-line"><span></span><span></span><span></span><span></span></div><small>۴ چرخه‌ی پایا در روزهای کاری</small></div></div>
+<div class="article-body"><div class="article-meta"><span>حساب تومانی</span><span>۱۵ مهر ۱۴۰۵</span></div><h3>چرا برداشت تومان همیشه آنی نیست؟</h3><p>چرخه‌های پایا و تعطیلی بانک‌ها چه اثری روی تسویه دارند؟</p></div>
+<details><summary>خواندن راهنمای کوتاه</summary><p>ثبت برداشت به معنی واریز همان لحظه نیست. درخواست پس از بررسی وارد چرخه‌ی بانکی می‌شود. پایا در روزهای کاری چهار چرخه دارد و زمان ثبت درخواست روی نوبت پردازش اثر می‌گذارد. وضعیت و شماره‌ی پیگیری را در تاریخچه‌ی برداشت ببینید و در صورت تأخیر، برای همان درخواست تیکت بزنید.</p></details>
+</article>
+</div>
+</div>
+</section>
+
+<section class="section" id="faq" aria-labelledby="faq-title">
+<div class="container faq-layout">
+<div class="faq-intro"><div class="eyebrow">جواب‌های روشن</div><h2 id="faq-title">پیش از شروع،<br>چه سؤالی دارید؟</h2><p>پاسخ چند سؤال پرتکرار درباره‌ی خرید، برداشت و محدودیت‌ها را اینجا می‌بینید.</p><a class="text-link" href="#support-form">سؤال دیگری دارم <svg class="icon"><use href="#i-chat"/></svg></a></div>
+<div class="faq-list">
+<details open><summary>برای خرید رمزارز چقدر تومان لازم دارم؟</summary><p>خرید فوری از ۱۰۰ هزار تومان شروع می‌شود. مقدار رمزارزی که دریافت می‌کنید به قیمت همان ارز و کارمزد داخل قیمت بستگی دارد. مبلغ نهایی و مقدار دریافتی باید پیش از تأیید سفارش بررسی شوند.</p></details>
+<details><summary>می‌توانم بدون احراز هویت یا با کارت شخص دیگری خرید کنم؟</summary><p>خیر. برای خرید و برداشت باید احراز هویت را کامل کنید. شماره‌ی موبایل، کارت و حساب بانکی باید به نام خودتان باشد. واریز از کارت فرد دیگر پذیرفته نمی‌شود و بررسی یا بازگشت آن ممکن است زمان ببرد.</p></details>
+<details><summary>سقف درگاه ۲۵ میلیون است؛ چطور بیشتر خرید کنم؟</summary><p>تا ۲۵ میلیون تومان در روز می‌توانید از درگاه شتاب استفاده کنید. برای مبالغ بیشتر، واریز بانکی با شناسه تا سقف سطح کاربری در دسترس است: سطح ۱ تا ۵۰ میلیون، سطح ۲ تا ۵۰۰ میلیون و سطح ۳ تا ۲ میلیارد تومان در روز. شناسه و اطلاعات واریز را فقط از حساب خودتان بگیرید.</p></details>
+<details><summary>برداشت تومان چه زمانی به حسابم می‌رسد؟</summary><p>برداشت تومان رایگان است و در چرخه‌های پایا تسویه می‌شود؛ چهار چرخه در روزهای کاری. زمان ثبت درخواست، تعطیلی‌ها و بانک مقصد بر زمان رسیدن وجه اثر می‌گذارند. تسویه‌ی آنی یا رسیدن در یک ساعت مشخص تضمین نمی‌شود.</p></details>
+<details><summary>آیا دارایی‌ها بیمه‌اند یا سود تضمین‌شده دارند؟</summary><p>خیر. دارایی رمزارزی تحت پوشش بیمه‌ی سپرده‌های بانکی نیست و بیت‌کاروان سود یا اصل سرمایه را تضمین نمی‌کند. نگهداری سرد و کنترل‌های امنیتی، ریسک نوسان قیمت یا تمام ریسک‌های عملیاتی را از بین نمی‌برند.</p></details>
+<details><summary>می‌توانم رمزارز را به کیف پول خودم منتقل کنم؟</summary><p>بله، پس از تکمیل شرایط برداشت حساب. برداشت رمزارز فقط کارمزد شبکه دارد. حداقل برداشت، شبکه‌ی قابل استفاده و هزینه پیش از تأیید مشخص می‌شود. آدرس، شبکه و در صورت نیاز ممو را با دقت بررسی کنید؛ انتقال تأییدشده‌ی شبکه معمولاً برگشت‌پذیر نیست.</p></details>
+<details><summary>بیت‌کاروان دفتر حضوری دارد؟ خرید نقدی هم انجام می‌دهید؟</summary><p>دفتر ما در تهران، خیابان ولیعصر، بالاتر از پارک ساعی، ساختمان ۱۲۴۰، طبقه‌ی ۷ است. مراجعه فقط با هماهنگی قبلی برای امور پشتیبانی انجام می‌شود. خرید و فروش و دریافت وجه نقد در دفتر انجام نمی‌دهیم.</p></details>
+<details id="terms"><summary>شرایط استفاده و محدودیت‌های معامله چیست؟</summary><p>استفاده از خدمات برای افراد ۱۸ سال به بالا، پس از تأیید هویت و پذیرش قوانین حساب امکان‌پذیر است. انتقال حساب به دیگران و استفاده از کارت یا هویت شخص دیگر مجاز نیست. محدودیت‌های شبکه، بررسی امنیتی یا الزامات بانکی ممکن است واریز و برداشت را موقتاً متوقف کنند. پیش از تأیید، مبلغ، شبکه، هزینه و شرایط همان سفارش را بخوانید. بیت‌کاروان مشاوره‌ی سرمایه‌گذاری نمی‌دهد.</p></details>
+<details id="privacy"><summary>اطلاعات هویتی من چطور استفاده می‌شود؟</summary><p>اطلاعات هویتی و بانکی برای تأیید مالکیت حساب، جلوگیری از سوءاستفاده و انجام الزامات قانونی دریافت می‌شود. دسترسی کارکنان به این اطلاعات محدود به نیاز کاری است. رمز عبور، کد دومرحله‌ای و کلید خصوصی کیف پول را حتی برای پشتیبانی نفرستید. این صفحه‌ی نمایشی اطلاعات فرم‌ها را به سرور ارسال یا ذخیره نمی‌کند.</p></details>
+</div>
+</div>
+</section>
+
+<section class="section contact-section" id="contact" aria-labelledby="contact-title">
+<div class="container">
+<div class="contact-layout">
+<div><div class="eyebrow">تهران، آنلاین برای سراسر ایران</div><h3 id="contact-title">نشانی و مراجعه‌ی حضوری</h3><p>تهران، خیابان ولیعصر، بالاتر از پارک ساعی، ساختمان ۱۲۴۰، طبقه‌ی ۷<br>مراجعه فقط با هماهنگی قبلی؛ شنبه تا چهارشنبه ۹ تا ۱۷، پنجشنبه ۹ تا ۱۳. جمعه و تعطیلات رسمی بسته است.</p><a class="text-link" href="https://www.google.com/maps/search/?api=1&amp;query=Tehran+Valiasr+Saei+Park" target="_blank" rel="noopener noreferrer">دیدن محدوده‌ی پارک ساعی روی نقشه <svg class="icon"><use href="#i-arrow"/></svg></a></div>
+<div><h3>مسیر و دسترسی</h3><p>با اتوبوس تندرو ولیعصر، ایستگاه پارک ساعی پیاده شوید و در مسیر شمال خیابان ادامه دهید. ساختمان آسانسور دارد؛ برای نیازهای دسترسی پیش از مراجعه تماس بگیرید.</p><p style="margin-top:8px">پارکینگ اختصاصی نداریم. از پارکینگ‌های عمومی اطراف استفاده کنید؛ جای پارک حاشیه‌ای تضمین‌شده نیست.</p></div>
+<div class="contact-ledger"><h3>ساعت پاسخ‌گویی</h3><div class="ledger-row"><span>تیکت و چت آنلاین</span><span class="value">۲۴ ساعته، ۷ روز هفته</span></div><div class="ledger-row"><span>پشتیبانی تلفنی</span><span class="value">هر روز، ۹ تا ۲۱</span></div><div class="ledger-row ledger-total"><span>تلفن</span><a class="value ltr" href="tel:02191000000">۰۲۱–۹۱۰۰۰۰۰۰</a></div><p style="font-size:10px;margin-top:9px">خرید و فروش آنلاین در تمام ساعت‌ها؛ تسویه‌ی تومان تابع چرخه‌های بانکی است.</p></div>
+</div>
+<div id="support-form" style="margin-top:30px">
+<details class="faq-list" style="border-top:1px solid var(--line);border-bottom:1px solid var(--line)">
+<summary style="cursor:pointer;padding:15px 0;font-size:13px;color:var(--blue)">فرم ارتباط با پشتیبانی بیت‌کاروان <svg class="icon" style="margin-right:7px"><use href="#i-chevron"/></svg></summary>
+<form id="ticket-form" class="signup-form" style="padding-bottom:20px;max-width:720px">
+<label class="sr-only" for="ticket-contact">شماره موبایل برای پیگیری</label><input id="ticket-contact" type="tel" inputmode="tel" autocomplete="tel" placeholder="شماره موبایل برای پیگیری" required maxlength="13">
+<label class="sr-only" for="ticket-subject">موضوع درخواست</label><input id="ticket-subject" type="text" placeholder="موضوع درخواست شما" required maxlength="150" style="direction:rtl">
+<button type="submit" class="btn btn-small">بررسی درخواست</button><p class="signup-status" id="ticket-status" role="status"></p>
+</form>
+<p class="muted" style="font-size:11px;padding-bottom:17px">راه‌های ارتباط مستقیم: <a href="tel:02191000000" class="ltr">۰۲۱–۹۱۰۰۰۰۰۰</a>، <a href="https://wa.me/982191000000">واتس‌اپ</a>، <a href="https://t.me/bitkarvan_support">تلگرام</a> و <a href="https://ble.ir/bitkarvan_support">بله</a>. کد ورود و رمز عبور را برای هیچ‌کس ارسال نکنید.</p>
+</details>
+</div>
+</div>
+</section>
+
+<div class="container">
+<aside class="risk" aria-label="هشدار ریسک سرمایه‌گذاری"><svg class="icon"><use href="#i-warning"/></svg><div><strong>رمزارز، بدون ریسک نیست.</strong><p>معامله‌ی رمزارز ریسک بالایی دارد و قیمت‌ها ممکن است نوسان شدید داشته باشند. ممکن است بخشی یا تمام سرمایه‌ی خود را از دست بدهید. با پول ضروری زندگی معامله نکنید و پیش از تصمیم، تحقیق کنید. بیت‌کاروان مشاوره‌ی سرمایه‌گذاری نمی‌دهد و سود یا بازگشت اصل سرمایه را تضمین نمی‌کند.</p></div></aside>
+</div>
+</main>
+
+<footer class="footer">
+<div class="container">
+<div class="footer-top">
+<div class="footer-brand"><a class="brand" href="#"><svg class="brand-mark" viewBox="0 0 38 44" fill="none" aria-hidden="true"><path d="M5 5h28v34H5z" stroke="currentColor" stroke-width="2"/><path d="M10 13h18m-18 7h11m4 0h3m-18 7h18m-18 5h18m-18 3h18" stroke="currentColor" stroke-width="1.7"/></svg><span><span class="brand-name">بیت‌کاروان</span><span class="brand-caption">دفترِ تومان، بازارِ رمزارز</span></span></a><p>از ۱۳۹۹، برای خرید و فروش رمزارز با تومان. جایی که مبلغ، مقدار و هزینه‌ی معامله، هرکدام جای مشخصی دارند.</p></div>
+<div class="footer-col"><h3>معامله در بیت‌کاروان</h3><a href="#trade">خرید و فروش فوری</a><a href="#markets">قیمت رمزارزها</a><a href="#fees">جدول کارمزد بازار</a><a href="#levels">سطح‌های کاربری</a><a href="#settlement">واریز و برداشت تومان</a></div>
+<div class="footer-col"><h3>راهنما و خدمات</h3><a href="#start">ثبت‌نام و احراز هویت</a><a href="#app">دانلود اپلیکیشن</a><a href="#learn">آموزش رمزارز</a><a href="#faq">سؤال‌های پرتکرار</a><a href="#support-form">ارتباط با پشتیبانی</a></div>
+<div class="footer-col"><h3>درباره‌ی بیت‌کاروان</h3><a href="#security">امنیت و ذخایر دارایی</a><a href="#contact">دفتر و راه‌های تماس</a><a href="#terms">قوانین و شرایط استفاده</a><a href="#privacy">حریم خصوصی</a><a href="#start">دعوت از دوستان</a></div>
+</div>
+<div class="trust-license">
+<div class="license-info"><strong>نماد اعتماد الکترونیکی دوستاره</strong><span> — شناسه‌ی کسب‌وکار: <span class="num">۱۲۴۰۷۹۹</span></span><p>اینماد، مجوز فعالیت سرمایه‌گذاری یا تضمین ارزش و بازگشت دارایی رمزارزی نیست.</p></div>
+<div class="footer-social" aria-label="کانال‌های پشتیبانی"><a href="https://t.me/bitkarvan_support" target="_blank" rel="noopener noreferrer">تلگرام</a><a href="https://ble.ir/bitkarvan_support" target="_blank" rel="noopener noreferrer">بله</a><a href="https://wa.me/982191000000" target="_blank" rel="noopener noreferrer">واتس‌اپ</a></div>
+</div>
+<div class="footer-bottom"><span>© ۱۴۰۵ بیت‌کاروان. تمام حقوق این وب‌سایت محفوظ است.</span><span>قیمت‌ها به تومان‌اند؛ هر تومان برابر با ۱۰ ریال است.</span></div>
+</div>
+</footer>
+<div class="mobile-trade"><div><strong>خرید و فروش فوری</strong><small>اول هزینه را ببینید، بعد تصمیم بگیرید.</small></div><a class="btn" href="#trade">شروع معامله <svg class="icon"><use href="#i-arrow"/></svg></a></div>
+
+<script>
+(function(){
+'use strict';
+const $=id=>document.getElementById(id);
+const prices={USDT:108400,BTC:11900000000,ETH:430000000,TRX:37200,TON:590000,SOL:21000000,DOGE:26500,PAXG:450000000};
+const fa=(n,d=0)=>new Intl.NumberFormat('fa-IR',{maximumFractionDigits:d}).format(n);
+const normalize=s=>s.replace(/[۰-۹]/g,c=>'۰۱۲۳۴۵۶۷۸۹'.indexOf(c)).replace(/[٠-٩]/g,c=>'٠١٢٣٤٥٦٧٨٩'.indexOf(c)).replace(/[٬,\s]/g,'').replace(/٫/g,'.');
+let mode='buy';
+function update(){
+const n=Number(normalize($('amount').value)),coin=$('coin').value,rate=prices[coin];
+const valid=Number.isFinite(n)&&n>0;
+$('input-unit').textContent=mode==='buy'?'تومان':coin;
+$('pay-unit').textContent=mode==='buy'?'تومان':coin;
+$('receive-unit').textContent=mode==='buy'?coin:'تومان';
+if(!valid){$('pay-value').textContent='—';$('receive-value').textContent='—';$('fee-value').textContent='—';return;}
+const fee=mode==='buy'?n-n/1.0025:n*rate*.0025;
+$('pay-value').textContent=fa(n,mode==='buy'?0:8);
+$('receive-value').textContent=mode==='buy'?fa(n/(rate*1.0025),8):fa(n*rate*.9975);
+$('fee-value').textContent=fa(fee);
+}
+function setMode(m){
+mode=m;
+$('buy-tab').setAttribute('aria-pressed',m==='buy');
+$('sell-tab').setAttribute('aria-pressed',m==='sell');
+$('amount-label').textContent=m==='buy'?'پرداخت می‌کنید':'مقدار رمزارز برای فروش';
+$('amount-hint').textContent=m==='buy'?'حداقل ۱۰۰٬۰۰۰ تومان':'مقدار دارایی را وارد کنید';
+$('coin-label').textContent=m==='buy'?'دریافت می‌کنید':'رمزارز پرداختی';
+$('amount').placeholder=m==='buy'?'مبلغ را وارد کنید':'مقدار را وارد کنید';
+$('trade-button-text').textContent=m==='buy'?'بررسی و ادامه خرید':'بررسی و ادامه فروش';
+$('trade-help').textContent=m==='buy'?'پرداخت با کارت بانکی به نام خودتان؛ تا ۲۵ میلیون تومان در روز از درگاه شتاب.':'موجودی رمزارزی حساب لازم است؛ مبلغ فروش به کیف پول تومانی شما اضافه می‌شود.';
+$('amount').value='';$('trade-status').textContent='';update();
+}
+$('buy-tab').addEventListener('click',()=>setMode('buy'));
+$('sell-tab').addEventListener('click',()=>setMode('sell'));
+$('amount').addEventListener('input',()=>{$('trade-status').textContent='';update();});
+$('amount').addEventListener('blur',()=>{
+const raw=normalize($('amount').value),n=Number(raw);
+if(raw&&Number.isFinite(n)&&n>0)$('amount').value=fa(n,mode==='buy'?0:8);
+});
+$('coin').addEventListener('change',update);
+$('trade-form').addEventListener('submit',e=>{
+e.preventDefault();
+const n=Number(normalize($('amount').value));
+if(!Number.isFinite(n)||n<=0){$('trade-status').textContent='لطفاً یک مبلغ یا مقدار معتبر وارد کنید.';$('amount').focus();return;}
+if((mode==='buy'?n:n*prices[$('coin').value])<100000){$('trade-status').textContent='حداقل ارزش سفارش ۱۰۰٬۰۰۰ تومان است.';$('amount').focus();return;}
+$('trade-status').textContent='پیش‌نمایش محاسبه شد. در این نسخه‌ی نمایشی، سفارش ثبت نمی‌شود و پرداختی انجام نمی‌گیرد. برای آشنایی با مراحل، بخش ثبت‌نام را ببینید.';
+});
+document.querySelectorAll('.market-buy').forEach(b=>b.addEventListener('click',()=>{
+setMode('buy');$('coin').value=b.dataset.coin;update();$('trade').scrollIntoView({behavior:window.matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth',block:'start'});$('amount').focus({preventScroll:true});
+}));
+let filter='all';
+function filterMarkets(){
+const term=$('market-search').value.trim().toLowerCase().replace(/ي/g,'ی').replace(/ك/g,'ک');
+let count=0;
+document.querySelectorAll('.market-table tbody tr').forEach(row=>{
+const visible=(filter==='all'||row.dataset.group.split(' ').includes(filter))&&row.dataset.name.toLowerCase().includes(term);
+row.hidden=!visible;if(visible)count++;
+});
+$('market-empty').style.display=count?'none':'block';
+}
+document.querySelectorAll('[data-filter]').forEach(b=>b.addEventListener('click',()=>{
+filter=b.dataset.filter;
+document.querySelectorAll('[data-filter]').forEach(x=>x.setAttribute('aria-pressed',x===b));
+filterMarkets();
+}));
+$('market-search').addEventListener('input',filterMarkets);
+$('menu-toggle').addEventListener('click',()=>{
+const open=$('menu-toggle').getAttribute('aria-expanded')!=='true';
+$('menu-toggle').setAttribute('aria-expanded',open);
+$('menu-toggle').setAttribute('aria-label',open?'بستن منو':'باز کردن منو');
+$('main-nav').classList.toggle('is-open',open);
+});
+document.querySelectorAll('#main-nav a').forEach(a=>a.addEventListener('click',()=>{
+$('main-nav').classList.remove('is-open');$('menu-toggle').setAttribute('aria-expanded','false');$('menu-toggle').setAttribute('aria-label','باز کردن منو');
+}));
+$('signup-form').addEventListener('submit',e=>{
+e.preventDefault();
+const phone=normalize($('signup-phone').value).replace(/-/g,'');
+if(!/^09\d{9}$/.test(phone)){$('signup-status').textContent='شماره موبایل را با ۰۹ و در ۱۱ رقم وارد کنید.';$('signup-phone').focus();return;}
+$('signup-status').textContent='شماره از نظر قالب درست است. در این نسخه پیامکی ارسال نمی‌شود و حسابی ساخته نمی‌شود؛ اطلاعات شما نیز ذخیره نشده است.';
+});
+document.querySelectorAll('[data-platform]').forEach(b=>b.addEventListener('click',()=>{
+$('download-status').textContent='مسیر انتخابی: '+b.dataset.platform+'؛ در این نسخه‌ی نمایشی فایل نصب یا وب‌اپ واقعی ارائه نمی‌شود.';
+}));
+$('ticket-form').addEventListener('submit',e=>{
+e.preventDefault();
+if(!/^09\d{9}$/.test(normalize($('ticket-contact').value))){$('ticket-status').textContent='شماره موبایل را با ۰۹ و در ۱۱ رقم وارد کنید.';$('ticket-contact').focus();return;}
+$('ticket-status').textContent='فرم بررسی شد. این نسخه به سامانه‌ی تیکت متصل نیست؛ درخواستی ارسال و اطلاعاتی ذخیره نشده است.';
+});
+document.querySelectorAll('a[href="#terms"],a[href="#privacy"]').forEach(a=>a.addEventListener('click',()=>{document.querySelector(a.getAttribute('href')).open=true;}));
+})();
+</script>
+</body>
+</html>
